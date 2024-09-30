@@ -93,6 +93,8 @@ Features that are necessary and sufficient for which kinds of complexity and com
 6. Are there MSci students working on this project?
 ![MSci project proposal](images/ProjectProposalsMsci2024-112.jpg)
 
+---
+
 #### Apps to install on university MacBook
 
 1. Text Blaze
