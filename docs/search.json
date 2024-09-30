@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Purpose of this Website",
+    "title": "Project Description",
     "section": "",
-    "text": "As I ended week 2 on the 27th of September, I thought it would be useful to keep track of the following from next week (week 3):\n\nWhat I did every day (mostly bookmarking or a summary)\nA brief summary of what was discussed in project meetings\nThings I hope to discuss or ask in the next project meeting\nUseful resources as links, since I often don’t keep track of what I bookmarked in Safari"
+    "text": "In terms of the project on ‘Active Drying’, we discussed the initial stages. ‘Drying’ is an equilibrium surface phase transition that occurs when a fluid at liquid-vapour coexistence is in contact with an infinite planar substrate that is sufficiently weakly attractive to the fluid particles, such that the vapour phase prefers to be at the substrate. Surface phase transitions can be first-order or critical, and previous results (see attached paper by Evans et al.) show that drying is generally a critical surface phase transition.\nPrevious work on ABPs has shown that they can exhibit a first-order wetting transition (see Turci et al., attached). This effect has been investigated by looking at liquid-vapour ‘slabs’ and droplets, showing consistent results. However, the mechanism by which the wetting transition is traversed does not seem to allow for the possibility of a drying transition. To have a chance of observing this, we need to understand the mechanism by which ABPs interact with a surface.\nThe aggregation effect at a hard wall arises because ABPs become trapped at the wall and cannot diffuse away quickly enough. The project will attempt to induce a drying transition by coupling the ABP velocity vector to the wall-fluid interaction in such a way as to produce a torque that creates an effective wall-fluid repulsion, possibly enabling a drying transition. Your task will be to modify a standard MD simulation package to introduce this torque and then proceed similarly to the Turci and Wilding paper in PRL 2021, to try to observe a drying transition. If evidence for this is seen, then you will try to quantify the character of the transition and analyse its critical properties."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Bristol Active Matter Group",
+    "title": "Purpose of this Website",
     "section": "",
-    "text": "Author: Sohyun Park\nSupervisors: Prof. Nigel Wilding, Dr. Francesco Turci"
+    "text": "Purpose of this Website\nAs I ended week 2 on the 27th of September, I thought it would be useful to keep track of the following from next week (week 3):\n\nWhat I did every day (mostly bookmarking or a summary)\nA brief summary of what was discussed in project meetings\nThings I hope to discuss or ask in the next project meeting\nUseful resources as links, since I often don’t keep track of what I bookmarked in Safari\n\nAuthor: Sohyun Park\nSupervisors: Prof. Nigel Wilding, Dr. Francesco Turci"
   },
   {
     "objectID": "notes.html",
@@ -100,14 +100,14 @@
   {
     "objectID": "index.html#general",
     "href": "index.html#general",
-    "title": "Purpose of this Website",
+    "title": "Project Description",
     "section": "General",
     "text": "General\nWeekly update of my TSR (Teaching Support Roles)\nDocument search\nUpcoming events by Nonlinear and Complex Physics Group\nPhysics PGR SharePoint site: These pages should provide you with a ‘one-stop-shop’ for all of your PGR needs, including information about progress procedures, forms and examinations.\nMyERP"
   },
   {
     "objectID": "index.html#it",
     "href": "index.html#it",
-    "title": "Purpose of this Website",
+    "title": "Project Description",
     "section": "IT",
     "text": "IT\nACRC HPC Documentation and User Guides\nIntroducing HOOMD-blue: HOOMD-blue is a Python package that performs Molecular Dynamics and hard particle Monte Carlo simulations. HOOMD-blue is general and can be used to model nanoparticles, bead-spring polymers, active matter, and many other types of systems.\nData Science and Research Software Engineering Training\nBDDS Python workshops\nQuarto Tutorial"
   },
@@ -646,14 +646,14 @@
   {
     "objectID": "index.html#semi-finals",
     "href": "index.html#semi-finals",
-    "title": "Purpose of this Website",
+    "title": "Project Description",
     "section": "Semi-Finals",
     "text": "Semi-Finals\nMatch 1: flatly vs minty\nWinner: flatly (Minty was fresh, but flatly had the edge!)\nMatch 2: united vs sandstone\nWinner: united!"
   },
   {
     "objectID": "index.html#final-round",
     "href": "index.html#final-round",
-    "title": "Purpose of this Website",
+    "title": "Project Description",
     "section": "Final Round!",
     "text": "Final Round!\nflatly vs united\nWinner: flatly! More professional, less adorable. But honestly, united put up a cute fight.\nFor now, flatly reigns supreme… but united is right there, ready for a rematch."
   }

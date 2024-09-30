@@ -1,11 +1,3 @@
-# Purpose of this Website
-As I ended week 2 on the 27th of September, I thought it would be useful to keep track of the following from next week (week 3):
-
-1. What I did every day (mostly bookmarking or a summary)
-2. A brief summary of what was discussed in project meetings
-3. Things I hope to discuss or ask in the next project meeting
-4. Useful resources as links, since I often don't keep track of what I bookmarked in Safari
-
 # Project Description
 In terms of the project on ‘Active Drying’, we discussed the initial stages. ‘Drying’ is an equilibrium surface phase transition that occurs when a fluid at liquid-vapour coexistence is in contact with an infinite planar substrate that is sufficiently weakly attractive to the fluid particles, such that the vapour phase prefers to be at the substrate. Surface phase transitions can be first-order or critical, and previous results (see attached paper by Evans et al.) show that drying is generally a critical surface phase transition.
 
@@ -42,6 +34,9 @@ The aggregation effect at a hard wall arises because ABPs become trapped at the 
 [Quarto Tutorial](https://quarto.org/docs/get-started/hello/vscode.html)
 
 # **Theme Showdown**
+
+<details>
+<summary>Click to reveal the Theme Showdown!</summary>
 
 From a pool of [25 themes](https://quarto.org/docs/output-formats/html-themes.html), the **chosen ones** are:
 
@@ -81,3 +76,5 @@ Winner: **united**!
 Winner: **flatly**! More professional, less adorable. But honestly, united put up a cute fight.
 
 For now, **flatly** reigns supreme... but united is right there, ready for a rematch.
+
+</details>
