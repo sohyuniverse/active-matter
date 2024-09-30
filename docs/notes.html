@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bristol Active Matter Group</title>
+<title>notes – Bristol Active Matter Group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -89,11 +118,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./notes.html"> 
+    <a class="nav-link active" href="./notes.html" aria-current="page"> 
 <span class="menu-text">Notes</span></a>
   </li>  
   <li class="nav-item">
@@ -116,12 +145,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#purpose-of-this-website" id="toc-purpose-of-this-website" class="nav-link active" data-scroll-target="#purpose-of-this-website">Purpose of This Website</a></li>
-  <li><a href="#project-description" id="toc-project-description" class="nav-link" data-scroll-target="#project-description">Project Description</a></li>
-  <li><a href="#useful-links" id="toc-useful-links" class="nav-link" data-scroll-target="#useful-links">Useful Links</a>
+  <li><a href="#notes-on-active-matter-phd-project" id="toc-notes-on-active-matter-phd-project" class="nav-link active" data-scroll-target="#notes-on-active-matter-phd-project">Notes on Active Matter PhD project</a>
   <ul class="collapse">
-  <li><a href="#general" id="toc-general" class="nav-link" data-scroll-target="#general">General</a></li>
-  <li><a href="#it" id="toc-it" class="nav-link" data-scroll-target="#it">IT</a></li>
+  <li><a href="#week-1" id="toc-week-1" class="nav-link" data-scroll-target="#week-1">Week 1</a>
+  <ul class="collapse">
+  <li><a href="#reading-what-is-a-complex-system" id="toc-reading-what-is-a-complex-system" class="nav-link" data-scroll-target="#reading-what-is-a-complex-system">2024/9/21 Reading <em>What is a Complex System?</em></a></li>
+  </ul></li>
+  <li><a href="#week-2" id="toc-week-2" class="nav-link" data-scroll-target="#week-2">Week 2</a>
+  <ul class="collapse">
+  <li><a href="#things-i-did-so-far" id="toc-things-i-did-so-far" class="nav-link" data-scroll-target="#things-i-did-so-far">2024/9/27 Things I did so far</a></li>
+  </ul></li>
+  <li><a href="#week-3" id="toc-week-3" class="nav-link" data-scroll-target="#week-3">Week 3</a>
+  <ul class="collapse">
+  <li><a href="#weekly-project-meeting" id="toc-weekly-project-meeting" class="nav-link" data-scroll-target="#weekly-project-meeting">2024/9/30 Weekly project meeting</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -132,40 +169,80 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="purpose-of-this-website" class="level1">
-<h1>Purpose of This Website</h1>
-<p>As I ended week 2 on the 27th of September, I thought it would be useful to keep track of the following from next week (week 3):</p>
+<section id="notes-on-active-matter-phd-project" class="level1">
+<h1>Notes on Active Matter PhD project</h1>
+<section id="week-1" class="level2">
+<h2 class="anchored" data-anchor-id="week-1">Week 1</h2>
+<section id="reading-what-is-a-complex-system" class="level3">
+<h3 class="anchored" data-anchor-id="reading-what-is-a-complex-system">2024/9/21 Reading <em>What is a Complex System?</em></h3>
+<p>By James Ladyman&nbsp;and&nbsp;Karoline Wiesner</p>
+<p>My final-year MSci project involved the study of a complex system: foreign exchange markets. Each individual currency was treated as a spin in the Ising model, and by applying E.T. Jaynes’s principle of maximum entropy, we discovered the structure of interactions between these entities. Remarkably, this simple model of magnetism can also describe the phase transitions of liquid-gas systems, as they fall into the same universality class. This model has even been extended to study how critical our brain is, giving rise to the field of the critical brain hypothesis. Therefore, many ideas during my research project came from neuroscience papers. The financial market and the brain: both are complex systems.</p>
+<p>About a year ago, I read a paper written by James Ladyman, a professor of philosophy of science at Bristol, titled “What is a Complex System?” (Ladyman et al., 2013). As I started my PhD at Bristol, my second supervisor, Francesco, mentioned that he also published a book about complexity. It was obvious to me that I should read this book.</p>
+<p>Chapter 1 presents The Truisms of Complexity Science as follows:</p>
 <ol type="1">
-<li>What I did every day (mostly bookmarking or a summary)</li>
-<li>A brief summary of what was discussed in project meetings</li>
-<li>Things I hope to discuss or ask in the next project meeting</li>
-<li>Useful resources as links, since I often don’t keep track of what I bookmarked in Safari</li>
+<li><p>More is different.</p></li>
+<li><p>Nonliving systems can generate order.</p></li>
+<li><p>Complexity can come from simplicity.</p></li>
+<li><p>Coordinated behaviour does not require an overall controller.</p></li>
+<li><p>Complex systems are often modelled as networks or information processing systems.</p></li>
+<li><p>There are various kinds of invariance and forms of universal behaviour in complex systems</p></li>
+<li><p>Complexity science is computational and probabilistic.</p></li>
+<li><p>Complexity science involves multiple disciplines.</p></li>
+<li><p>There is a difference between the order that complex systems produce and the order of the complex systems themselves.</p></li>
+</ol>
+<p>Features that are necessary and sufficient for which kinds of complexity and complex system are as follows:</p>
+<ol type="1">
+<li><p>Numerosity: complex systems involve many interactions among many components.</p></li>
+<li><p>Disorder and diversity: the interactions in a complex system are not coordinated or controlled centrally, and the components may differ.</p></li>
+<li><p>Feedback: the interactions in complex systems are iterated so that there is feedback from previous interactions on a time scale relevant to the system’s emergent dynamics.</p></li>
+<li><p>Non-equilibrium: complex systems are open to the environment and are often driven by something external.</p></li>
+<li><p>Spontaneous order and self-organisation: complex systems exhibit structure and order that arises out of the interactions among their parts.</p></li>
+<li><p>Nonlinearity: complex systems exhibit nonlinear dependence on parameters or external drivers.</p></li>
+<li><p>Robustness: the structure and function of complex systems is stable under relevant perturbations.</p></li>
+<li><p>Nested structure and modularity: there may be multiple scales of structure, clustering and specialisation of function in complex systems.</p></li>
+<li><p>History and memory: complex systems often require a very long history to exist and often store information about history.</p></li>
+<li><p>Adaptive behaviour: complex systems are often able to modify their behaviour depending on the state of the environment and the predictions they make about it.</p></li>
 </ol>
 </section>
-<section id="project-description" class="level1">
-<h1>Project Description</h1>
-<p>In terms of the project on ‘Active Drying’, we discussed the initial stages. ‘Drying’ is an equilibrium surface phase transition that occurs when a fluid at liquid-vapour coexistence is in contact with an infinite planar substrate that is sufficiently weakly attractive to the fluid particles, such that the vapour phase prefers to be at the substrate. Surface phase transitions can be first-order or critical, and previous results (see attached paper by Evans et al.) show that drying is generally a critical surface phase transition.</p>
-<p>Previous work on ABPs has shown that they can exhibit a first-order wetting transition (see Turci et al., attached). This effect has been investigated by looking at liquid-vapour ‘slabs’ and droplets, showing consistent results. However, the mechanism by which the wetting transition is traversed does not seem to allow for the possibility of a drying transition. To have a chance of observing this, we need to understand the mechanism by which ABPs interact with a surface.</p>
-<p>The aggregation effect at a hard wall arises because ABPs become trapped at the wall and cannot diffuse away quickly enough. The project will attempt to induce a drying transition by coupling the ABP velocity vector to the wall-fluid interaction in such a way as to produce a torque that creates an effective wall-fluid repulsion, possibly enabling a drying transition. Your task will be to modify a standard MD simulation package to introduce this torque and then proceed similarly to the Turci and Wilding paper in PRL 2021, to try to observe a drying transition. If evidence for this is seen, then you will try to quantify the character of the transition and analyse its critical properties.</p>
 </section>
-<section id="useful-links" class="level1">
-<h1>Useful Links</h1>
-<section id="general" class="level2">
-<h2 class="anchored" data-anchor-id="general">General</h2>
-<p><a href="https://docs.google.com/spreadsheets/d/1KawPLUBrlTWHJFp9Wju62MBNK2TeH_sQlse-GgJhXiY/edit?usp=sharing">Weekly update of my TSR (Teaching Support Roles)</a></p>
-<p><a href="https://www-webofscience-com.bris.idm.oclc.org/wos/woscc/basic-search">Document search</a></p>
-<p><a href="http://complexity-physics.org/blog/category/events/">Upcoming events by Nonlinear and Complex Physics Group</a></p>
-<p><a href="https://uob.sharepoint.com/sites/physics/SitePages/postgraduate-research-students-category.aspx?xsdata=MDV8MDJ8fDJiODQ5OWNkN2NmODQ1YjI1NTZjMDhkY2RjOWMxZjA0fGIyZTQ3ZjMwY2Q3ZDRhNGVhNWRhYjE4Y2YxYTQxNTFifDB8MHw2Mzg2Mjc4MTAyNzMxNTQ0MTJ8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPakF4Wm1VM1pHSmtMVFprTlRFdE5EZGxZUzFoTVdJMExUWm1OV0kwWm1WaFpEQmxZMTgxT1RZelpUWmpNeTB5Wm1NNUxUUTBZVGt0T1dJNU1DMWlZVEptTlRaaU9UQXlORFJBZFc1eExtZGliQzV6Y0dGalpYTXZiV1Z6YzJGblpYTXZNVGN5TnpFNE5ESXlOams0TUE9PXw5NDBiYTM2YzEyZjE0Y2I1NTU2YzA4ZGNkYzljMWYwNHwyMjFiOWI1Nzc0MmI0NjRkYjIxMTIwOTFmYmZhNzBjZA%3D%3D&amp;sdata=Zm12U1I1RGhFMmpDQm5XM200UENFbHlyV0xHZnBLRURVcWtxVUdNeklvMD0%3D&amp;ovuser=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b%2Csp13328%40bristol.ac.uk&amp;OR=Teams-HL&amp;CT=1727184244025&amp;clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI1MC8yNDA4MTcwMDQxOSIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D">Physics PGR SharePoint site</a>: <em>These pages should provide you with a ‘one-stop-shop’ for all of your PGR needs, including information about progress procedures, forms and examinations.</em></p>
-<p><a href="https://myerp.bris.ac.uk/agresso/">MyERP</a></p>
+<section id="week-2" class="level2">
+<h2 class="anchored" data-anchor-id="week-2">Week 2</h2>
+<section id="things-i-did-so-far" class="level3">
+<h3 class="anchored" data-anchor-id="things-i-did-so-far">2024/9/27 Things I did so far</h3>
+<ol type="1">
+<li><p>Busy weeks due to starting three teaching modules: <a href="onenote:Overview.one#Links&amp;section-id=%7BD4B227EF-F9FF-864E-A042-9B9A7C2E06E3%7D&amp;page-id=%7BB7874627-D52D-5043-9E1A-2067E68FAD02%7D&amp;object-id=%7B537C7D03-2CEB-3142-8063-0EF93BF5A5E9%7D&amp;25&amp;base-path=https://uob-my.sharepoint.com/personal/sp13328_bristol_ac_uk/Documents/PhD%20in%20Active%20Matter">Weekly update of my TSR (Teaching Support Roles)</a>. Looking back, I wish I could have done more reading, as there isn’t much to talk about in terms of active matter research for the next project meeting on Monday.</p></li>
+<li><p>Reading <em>What is a Complex System?</em> by James Ladyman and Karoline Wiesner. The purpose of reading is to understand how systems out of thermodynamic equilibrium (a feature of complex systems) relate to a wide range of concepts associated with complexity.</p>
+<p>• There was a video that helped clarify what is meant by a Markov chain and a stochastic process being stationary: <a href="https://www.youtube.com/watch?v=i3AkTO9HLXo&amp;list=PLM8wYQRetTxBkdvBtz-gw8b9lcVkdXQKV">Markov Chains Clearly Explained! Part - 1</a>. His other videos are helpful as well. For example, when I saw <span class="math inline">\(P_{ij}^{(n)} = A_{ij}^n\)</span> from the <em>n-Step Transition Matrix</em> video (Part 3), it was quite surprising. However, the Part 5 video on hidden Markov models wasn’t very helpful, but reading the appendix in the book was sufficient.</p>
+<p>• What I’ve felt from reading this book (currently at p.90) is that it presents a lot of different ideas and has interesting discussions on the history of science, but I only seem to get excited when it starts mentioning the brain. I’m not sure if I’m necessarily interested in quantifying complexity. From the Apple notes on 28/9/2024:</p>
+<p><em>As I’m reading through </em>What is a Complex System?<em>, it seems that the description of a complex system arises as we have more representations at different scales of analysis. The concept of ‘complexity’ was destined to arise as the scientific era evolved.<br>
+Non-equilibrium systems arise because we define what systems are in thermodynamic equilibrium, which are idealisations.<br>
+Things that fail to be idealised fall into this dualistic concept: non-equilibrium.</em></p></li>
+</ol>
 </section>
-<section id="it" class="level2">
-<h2 class="anchored" data-anchor-id="it">IT</h2>
-<p><a href="https://www.acrc.bris.ac.uk/protected/hpc-docs/index.html#">ACRC HPC Documentation and User Guides</a></p>
-<p><a href="https://hoomd-blue.readthedocs.io/en/latest/tutorial/00-Introducing-HOOMD-blue/00-index.html">Introducing HOOMD-blue</a>: <em>HOOMD-blue is a Python package that performs Molecular Dynamics and hard particle Monte Carlo simulations. HOOMD-blue is general and can be used to model nanoparticles, bead-spring polymers, active matter, and many other types of systems.</em></p>
-<p><a href="https://bristol-training.github.io">Data Science and Research Software Engineering Training</a></p>
-<p><a href="https://github.com/BristolDataScienceSociety">BDDS Python workshops</a></p>
+</section>
+<section id="week-3" class="level2">
+<h2 class="anchored" data-anchor-id="week-3">Week 3</h2>
+<section id="weekly-project-meeting" class="level3">
+<h3 class="anchored" data-anchor-id="weekly-project-meeting">2024/9/30 Weekly project meeting</h3>
+<section id="things-to-discuss" class="level4">
+<h4 class="anchored" data-anchor-id="things-to-discuss">Things to discuss</h4>
+<ol type="1">
+<li><p>Meeting with Max on Friday at noon (4th of Oct), thinking of going to Budapest Café</p></li>
+<li><p>‘Setting Expectations’ document</p></li>
+<li><p>Two conferences to join:</p>
+<p>• <a href="https://iop.eventsair.com/doc2024">The Dao of Complexity workshop</a></p>
+<p>• <a href="http://complexity-physics.org/blog/2024/08/19/the-statistical-physics-of-cognition">The Statistical Physics of Cognition</a></p></li>
+</ol>
+<p>So, a trip to London, how to sort out things with Clarity, etc</p>
+<ol start="4" type="1">
+<li><p>Set up <a href="https://uob.sharepoint.com/sites/itservices/SitePages/filestores.aspx">RDSF</a> data storage (Though I checked, OneDrive for Business offers 2TB of storage: <a href="https://uob.sharepoint.com/sites/systemsupport/SitePages/onedrive-overview.aspx">Overview of OneDrive for Business</a>)</p></li>
+<li><p>Brief plan discussion: reading Mary Coe’s thesis, then Molecular Dynamics book</p></li>
+<li><p>Are there MSci students working on this project? <img src="images/ProjectProposalsMsci2024-112.jpg" class="img-fluid" alt="MSci project proposal"></p></li>
+</ol>
 
 
+</section>
+</section>
 </section>
 </section>
 

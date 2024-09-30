@@ -3,15 +3,18 @@ project:
   output-dir: docs
 
 website:
-  title: "today"
+  title: "Bristol Active Matter Group"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "Notes"
+        href: notes.qmd
+      - text: "About"
+        href: about.qmd
 
 format:
   html:
-    theme: sketchy
+    theme: Litera
     css: styles.css
     toc: true
