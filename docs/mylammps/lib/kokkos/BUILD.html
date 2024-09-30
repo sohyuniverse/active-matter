@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bristol Active Matter Group</title>
+<title>build – Bristol Active Matter Group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +20,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Bristol Active Matter Group</span>
     </a>
   </div>
@@ -89,15 +123,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./notes.html"> 
+    <a class="nav-link" href="../../../notes.html"> 
 <span class="menu-text">Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -116,13 +150,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#purpose-of-this-website" id="toc-purpose-of-this-website" class="nav-link active" data-scroll-target="#purpose-of-this-website">Purpose of this Website</a></li>
-  <li><a href="#project-description" id="toc-project-description" class="nav-link" data-scroll-target="#project-description">Project Description</a></li>
-  <li><a href="#useful-links" id="toc-useful-links" class="nav-link" data-scroll-target="#useful-links">Useful Links</a>
+  <li><a href="#installing-and-using-kokkos" id="toc-installing-and-using-kokkos" class="nav-link active" data-scroll-target="#installing-and-using-kokkos">Installing and Using Kokkos</a>
   <ul class="collapse">
-  <li><a href="#general" id="toc-general" class="nav-link" data-scroll-target="#general">General</a></li>
-  <li><a href="#it" id="toc-it" class="nav-link" data-scroll-target="#it">IT</a></li>
+  <li><a href="#kokkos-philosophy" id="toc-kokkos-philosophy" class="nav-link" data-scroll-target="#kokkos-philosophy">Kokkos Philosophy</a></li>
+  <li><a href="#configuring-cmake" id="toc-configuring-cmake" class="nav-link" data-scroll-target="#configuring-cmake">Configuring CMake</a></li>
+  <li><a href="#known-issues" id="toc-known-issues" class="nav-link" data-scroll-target="#known-issues">Known Issues</a><a name="KnownIssues" class="nav-link" data-scroll-target="undefined"></a>
+  <ul class="collapse">
+  <li><a href="#cray" id="toc-cray" class="nav-link" data-scroll-target="#cray">Cray</a></li>
+  <li><a href="#fortran" id="toc-fortran" class="nav-link" data-scroll-target="#fortran">Fortran</a></li>
   </ul></li>
+  <li><a href="#spack" id="toc-spack" class="nav-link" data-scroll-target="#spack">Spack</a></li>
+  </ul></li>
+  <li><a href="#kokkos-keyword-listing" id="toc-kokkos-keyword-listing" class="nav-link" data-scroll-target="#kokkos-keyword-listing">Kokkos Keyword Listing</a></li>
   </ul>
 </nav>
     </div>
@@ -132,42 +171,89 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="purpose-of-this-website" class="level1">
-<h1>Purpose of this Website</h1>
-<p>As I ended week 2 on the 27th of September, I thought it would be useful to keep track of the following from next week (week 3):</p>
-<ol type="1">
-<li>What I did every day (mostly bookmarking or a summary)</li>
-<li>A brief summary of what was discussed in project meetings</li>
-<li>Things I hope to discuss or ask in the next project meeting</li>
-<li>Useful resources as links, since I often don’t keep track of what I bookmarked in Safari</li>
-</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://avatars2.githubusercontent.com/u/10199860?s=200&amp;v=4.png" class="img-fluid figure-img"></p>
+<figcaption>Kokkos</figcaption>
+</figure>
+</div>
+<section id="installing-and-using-kokkos" class="level1">
+<h1>Installing and Using Kokkos</h1>
+<section id="kokkos-philosophy" class="level2">
+<h2 class="anchored" data-anchor-id="kokkos-philosophy">Kokkos Philosophy</h2>
+<p>Kokkos provides a modern CMake style build system. As C++ continues to develop for C++20 and beyond, CMake is likely to provide the most robust support for C++. Applications heavily leveraging Kokkos are strongly encouraged to use a CMake build system.</p>
+<p>You can either use Kokkos as an installed package (encouraged) or use Kokkos in-tree in your project. Modern CMake is exceedingly simple at a high-level (with the devil in the details). Once Kokkos is installed In your <code>CMakeLists.txt</code> simply use:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode cmake code-with-copy"><code class="sourceCode cmake"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">find_package</span>(Kokkos <span class="ot">REQUIRED</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Then for every executable or library in your project:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode cmake code-with-copy"><code class="sourceCode cmake"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">target_link_libraries</span>(<span class="bn">myTarget</span> <span class="bn">Kokkos::kokkos</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>That’s it! There is no checking Kokkos preprocessor, compiler, or linker flags. Kokkos propagates all the necessary flags to your project. This means not only is linking to Kokkos easy, but Kokkos itself can actually configure compiler and linker flags for <em>your</em> project. When configuring your project just set:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> cmake <span class="va">${srcdir}</span> <span class="dt">\</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">-DKokkos_ROOT</span><span class="op">=</span><span class="va">${kokkos_install_prefix}</span> <span class="dt">\</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">-DCMAKE_CXX_COMPILER</span><span class="op">=</span><span class="va">${compiler_used_to_build_kokkos}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Note: You may need the following if your project requires a minimum CMake version older than 3.12:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode cmake code-with-copy"><code class="sourceCode cmake"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">cmake_policy</span>(<span class="ot">SET</span> <span class="ot">CMP0074</span> <span class="ot">NEW</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>If building in-tree, there is no <code>find_package</code>. You can use <code>add_subdirectory(kokkos)</code> with the Kokkos source and again just link with <code>target_link_libraries(Kokkos::kokkos)</code>. The examples in <code>examples/cmake_build_installed</code> and <code>examples/cmake_build_in_tree</code> can help get you started.</p>
 </section>
-<section id="project-description" class="level1">
-<h1>Project Description</h1>
-<p>In terms of the project on ‘Active Drying’, we discussed the initial stages. ‘Drying’ is an equilibrium surface phase transition that occurs when a fluid at liquid-vapour coexistence is in contact with an infinite planar substrate that is sufficiently weakly attractive to the fluid particles, such that the vapour phase prefers to be at the substrate. Surface phase transitions can be first-order or critical, and previous results (see attached paper by Evans et al.) show that drying is generally a critical surface phase transition.</p>
-<p>Previous work on ABPs has shown that they can exhibit a first-order wetting transition (see Turci et al., attached). This effect has been investigated by looking at liquid-vapour ‘slabs’ and droplets, showing consistent results. However, the mechanism by which the wetting transition is traversed does not seem to allow for the possibility of a drying transition. To have a chance of observing this, we need to understand the mechanism by which ABPs interact with a surface.</p>
-<p>The aggregation effect at a hard wall arises because ABPs become trapped at the wall and cannot diffuse away quickly enough. The project will attempt to induce a drying transition by coupling the ABP velocity vector to the wall-fluid interaction in such a way as to produce a torque that creates an effective wall-fluid repulsion, possibly enabling a drying transition. Your task will be to modify a standard MD simulation package to introduce this torque and then proceed similarly to the Turci and Wilding paper in PRL 2021, to try to observe a drying transition. If evidence for this is seen, then you will try to quantify the character of the transition and analyse its critical properties.</p>
+<section id="configuring-cmake" class="level2">
+<h2 class="anchored" data-anchor-id="configuring-cmake">Configuring CMake</h2>
+<p>A very basic installation of Kokkos is done with:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> cmake <span class="va">${srcdir}</span> <span class="dt">\</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a> <span class="at">-DCMAKE_CXX_COMPILER</span><span class="op">=</span>g++ <span class="dt">\</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a> <span class="at">-DCMAKE_INSTALL_PREFIX</span><span class="op">=</span><span class="va">${kokkos_install_folder}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>which builds and installed a default Kokkos when you run <code>make install</code>. There are numerous device backends, options, and architecture-specific optimizations that can be configured, e.g.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> cmake <span class="va">${srcdir}</span> <span class="dt">\</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a> <span class="at">-DCMAKE_CXX_COMPILER</span><span class="op">=</span>g++ <span class="dt">\</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a> <span class="at">-DCMAKE_INSTALL_PREFIX</span><span class="op">=</span><span class="va">${kokkos_install_folder}</span> <span class="dt">\</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a> <span class="at">-DKokkos_ENABLE_OPENMP</span><span class="op">=</span>ON</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>which activates the OpenMP backend. All of the options controlling device backends, options, architectures, and third-party libraries (TPLs) are given below.</p>
+<p>Kokkos requires as a minimum C++17, however C++20 and C++23 are supported depending on the compiler.</p>
+<p>The latest minimum compiler versions can be found in <code>cmake/kokkos_compiler_id.cmake</code>.</p>
 </section>
-<section id="useful-links" class="level1">
-<h1>Useful Links</h1>
-<section id="general" class="level2">
-<h2 class="anchored" data-anchor-id="general">General</h2>
-<p><a href="https://docs.google.com/spreadsheets/d/1KawPLUBrlTWHJFp9Wju62MBNK2TeH_sQlse-GgJhXiY/edit?usp=sharing">Weekly update of my TSR (Teaching Support Roles)</a></p>
-<p><a href="https://www-webofscience-com.bris.idm.oclc.org/wos/woscc/basic-search">Document search</a></p>
-<p><a href="http://complexity-physics.org/blog/category/events/">Upcoming events by Nonlinear and Complex Physics Group</a></p>
-<p><a href="https://uob.sharepoint.com/sites/physics/SitePages/postgraduate-research-students-category.aspx?xsdata=MDV8MDJ8fDJiODQ5OWNkN2NmODQ1YjI1NTZjMDhkY2RjOWMxZjA0fGIyZTQ3ZjMwY2Q3ZDRhNGVhNWRhYjE4Y2YxYTQxNTFifDB8MHw2Mzg2Mjc4MTAyNzMxNTQ0MTJ8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPakF4Wm1VM1pHSmtMVFprTlRFdE5EZGxZUzFoTVdJMExUWm1OV0kwWm1WaFpEQmxZMTgxT1RZelpUWmpNeTB5Wm1NNUxUUTBZVGt0T1dJNU1DMWlZVEptTlRaaU9UQXlORFJBZFc1eExtZGliQzV6Y0dGalpYTXZiV1Z6YzJGblpYTXZNVGN5TnpFNE5ESXlOams0TUE9PXw5NDBiYTM2YzEyZjE0Y2I1NTU2YzA4ZGNkYzljMWYwNHwyMjFiOWI1Nzc0MmI0NjRkYjIxMTIwOTFmYmZhNzBjZA%3D%3D&amp;sdata=Zm12U1I1RGhFMmpDQm5XM200UENFbHlyV0xHZnBLRURVcWtxVUdNeklvMD0%3D&amp;ovuser=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b%2Csp13328%40bristol.ac.uk&amp;OR=Teams-HL&amp;CT=1727184244025&amp;clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI1MC8yNDA4MTcwMDQxOSIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D">Physics PGR SharePoint site</a>: <em>These pages should provide you with a ‘one-stop-shop’ for all of your PGR needs, including information about progress procedures, forms and examinations.</em></p>
-<p><a href="https://myerp.bris.ac.uk/agresso/">MyERP</a></p>
+<section id="known-issues" class="level2">
+<h2 class="anchored" data-anchor-id="known-issues">Known Issues<a name="KnownIssues"></a></h2>
+<section id="cray" class="level3">
+<h3 class="anchored" data-anchor-id="cray">Cray</h3>
+<ul>
+<li>The Cray compiler wrappers do static linking by default. This seems to break the Kokkos build. You will likely need to set the environment variable <code>CRAYPE_LINK_TYPE=dynamic</code> in order to link correctly. Kokkos warns during configure if this is missing.</li>
+<li>The Cray compiler identifies to CMake as Clang, but it sometimes has its own flags that differ from Clang. We try to include all exceptions, but flag errors may occur in which a Clang-specific flag is passed that the Cray compiler does not recognize.</li>
+</ul>
 </section>
-<section id="it" class="level2">
-<h2 class="anchored" data-anchor-id="it">IT</h2>
-<p><a href="https://www.acrc.bris.ac.uk/protected/hpc-docs/index.html#">ACRC HPC Documentation and User Guides</a></p>
-<p><a href="https://hoomd-blue.readthedocs.io/en/latest/tutorial/00-Introducing-HOOMD-blue/00-index.html">Introducing HOOMD-blue</a>: <em>HOOMD-blue is a Python package that performs Molecular Dynamics and hard particle Monte Carlo simulations. HOOMD-blue is general and can be used to model nanoparticles, bead-spring polymers, active matter, and many other types of systems.</em></p>
-<p><a href="https://bristol-training.github.io">Data Science and Research Software Engineering Training</a></p>
-<p><a href="https://github.com/BristolDataScienceSociety">BDDS Python workshops</a></p>
-<p><a href="https://quarto.org/docs/get-started/hello/vscode.html">Quarto Tutorial</a></p>
+<section id="fortran" class="level3">
+<h3 class="anchored" data-anchor-id="fortran">Fortran</h3>
+<ul>
+<li>In a mixed C++/Fortran code, CMake will use the C++ linker by default. If you override this behavior and use Fortran as the link language, the link may break because Kokkos adds linker flags expecting the linker to be C++. Prior to CMake 3.18, Kokkos has no way of detecting in downstream projects that the linker was changed to Fortran. From CMake 3.18, Kokkos can use generator expressions to avoid adding flags when the linker is not C++. Note: Kokkos will not add any linker flags in this Fortran case. The user will be entirely on their own to add the appropriate linker flags.</li>
+</ul>
+</section>
+</section>
+<section id="spack" class="level2">
+<h2 class="anchored" data-anchor-id="spack">Spack</h2>
+<p>An alternative to manually building with the CMake is to use the Spack package manager. Make sure you have downloaded <a href="https://github.com/spack/spack">Spack</a>. The easiest way to configure the Spack environment is:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> source <span class="ex">spack/share/spack/setup-env.sh</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>with other scripts available for other shells. You can display information about how to install packages with:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> spack <span class="ex">info</span> kokkos</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="ex">A</span> basic installation would be done as:</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="kw">````</span>bash</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> spack <span class="fu">install</span> kokkos</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Spack allows options and and compilers to be tuned in the install command.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> spack <span class="fu">install</span> kokkos@3.0 %gcc@7.3.0 +openmp</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This example illustrates the three most common parameters to Spack: * Variants: specified with, e.g.&nbsp;<code>+openmp</code>, this activates (or deactivates with, e.g.&nbsp;<code>~openmp</code>) certain options. * Version: immediately following <code>kokkos</code> the <code>@version</code> can specify a particular Kokkos to build * Compiler: a default compiler will be chosen if not specified, but an exact compiler version can be given with the <code>%</code>option.</p>
+<p>For a complete list of Kokkos options, run:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> spack <span class="ex">info</span> kokkos</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>More details can be found in the <a href="../../../mylammps/lib/kokkos/Spack.html">Spack README</a></p>
+<section id="spack-development" class="level4">
+<h4 class="anchored" data-anchor-id="spack-development">Spack Development</h4>
+<p>Spack currently installs packages to a location determined by a unique hash. This hash name is not really “human readable”. Generally, Spack usage should never really require you to reference the computer-generated unique install folder. If you must know, you can locate Spack Kokkos installations with:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> spack <span class="fu">find</span> <span class="at">-p</span> kokkos ...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>where <code>...</code> is the unique spec identifying the particular Kokkos configuration and version.</p>
+<p>A better way to use Spack for doing Kokkos development is the dev-build feature of Spack. For dev-build details, consult the kokkos-spack repository <a href="https://github.com/kokkos/kokkos-spack/blob/master/README.md">README</a>.</p>
+</section>
+</section>
+</section>
+<section id="kokkos-keyword-listing" class="level1">
+<h1>Kokkos Keyword Listing</h1>
+<p>Please refer to our <a href="https://kokkos.github.io/kokkos-core-wiki/keywords.html#cmake-keywords">wiki</a>.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bristol Active Matter Group</title>
+<title>documentation_conventions – Bristol Active Matter Group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Bristol Active Matter Group</span>
     </a>
   </div>
@@ -89,15 +89,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./notes.html"> 
+    <a class="nav-link" href="../../notes.html"> 
 <span class="menu-text">Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -116,12 +116,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#purpose-of-this-website" id="toc-purpose-of-this-website" class="nav-link active" data-scroll-target="#purpose-of-this-website">Purpose of this Website</a></li>
-  <li><a href="#project-description" id="toc-project-description" class="nav-link" data-scroll-target="#project-description">Project Description</a></li>
-  <li><a href="#useful-links" id="toc-useful-links" class="nav-link" data-scroll-target="#useful-links">Useful Links</a>
+  <li><a href="#outline-of-lammps-documentation-file-conventions" id="toc-outline-of-lammps-documentation-file-conventions" class="nav-link active" data-scroll-target="#outline-of-lammps-documentation-file-conventions">Outline of LAMMPS documentation file conventions</a>
   <ul class="collapse">
-  <li><a href="#general" id="toc-general" class="nav-link" data-scroll-target="#general">General</a></li>
-  <li><a href="#it" id="toc-it" class="nav-link" data-scroll-target="#it">IT</a></li>
+  <li><a href="#file-format-and-tools" id="toc-file-format-and-tools" class="nav-link" data-scroll-target="#file-format-and-tools">File format and tools</a></li>
+  <li><a href="#work-in-progress" id="toc-work-in-progress" class="nav-link" data-scroll-target="#work-in-progress">Work in progress</a></li>
+  <li><a href="#general-structure" id="toc-general-structure" class="nav-link" data-scroll-target="#general-structure">General structure</a></li>
+  <li><a href="#formatting-conventions" id="toc-formatting-conventions" class="nav-link" data-scroll-target="#formatting-conventions">Formatting conventions</a></li>
+  <li><a href="#required-steps-when-adding-a-custom-style-to-lammps" id="toc-required-steps-when-adding-a-custom-style-to-lammps" class="nav-link" data-scroll-target="#required-steps-when-adding-a-custom-style-to-lammps">Required steps when adding a custom style to LAMMPS</a></li>
+  <li><a href="#required-additional-steps-when-adding-a-new-package-to-lammps" id="toc-required-additional-steps-when-adding-a-new-package-to-lammps" class="nav-link" data-scroll-target="#required-additional-steps-when-adding-a-new-package-to-lammps">Required additional steps when adding a new package to LAMMPS</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -132,39 +134,41 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="purpose-of-this-website" class="level1">
-<h1>Purpose of this Website</h1>
-<p>As I ended week 2 on the 27th of September, I thought it would be useful to keep track of the following from next week (week 3):</p>
-<ol type="1">
-<li>What I did every day (mostly bookmarking or a summary)</li>
-<li>A brief summary of what was discussed in project meetings</li>
-<li>Things I hope to discuss or ask in the next project meeting</li>
-<li>Useful resources as links, since I often don’t keep track of what I bookmarked in Safari</li>
-</ol>
+<section id="outline-of-lammps-documentation-file-conventions" class="level1">
+<h1>Outline of LAMMPS documentation file conventions</h1>
+<p>This purpose of this document is to provide a point of reference for LAMMPS developers and contributors as to what conventions should be used to structure and format files in the LAMMPS manual.</p>
+<p>Last change: 2022-12-30</p>
+<section id="file-format-and-tools" class="level2">
+<h2 class="anchored" data-anchor-id="file-format-and-tools">File format and tools</h2>
+<p>In fall 2019, the LAMMPS documentation file format has changed from a home grown markup designed to generate HTML format files only, to [reStructuredText](https://docutils.sourceforge.io/rst.html&gt;. For a transition period all files in the old .txt format were transparently converted to .rst and then processed. The <code>txt2rst tool</code> is still included in the distribution to obtain an initial .rst file for legacy integration into the manual. Since that transition to reStructured text, many of the artifacts of the translation have been removed though, and parts of the documentation refactored and expanded to take advantage of the capabilities reStructuredText and associated tools. The conversion from the source to the final formats (HTML, PDF, and optionally e-book reader formats ePUB and MOBI) is mostly automated and controlled by a Makefile in the <code>doc</code> folder. This makefile assumes that the processing is done on a Unix-like machine and Python 3.5 or later and a matching venv module are available. Additional Python packages (like the Sphinx tool and several extensions) are transparently installed into a virtual environment over the internet using the <code>pip</code> package manager. Further requirements and details are discussed in the manual.</p>
 </section>
-<section id="project-description" class="level1">
-<h1>Project Description</h1>
-<p>In terms of the project on ‘Active Drying’, we discussed the initial stages. ‘Drying’ is an equilibrium surface phase transition that occurs when a fluid at liquid-vapour coexistence is in contact with an infinite planar substrate that is sufficiently weakly attractive to the fluid particles, such that the vapour phase prefers to be at the substrate. Surface phase transitions can be first-order or critical, and previous results (see attached paper by Evans et al.) show that drying is generally a critical surface phase transition.</p>
-<p>Previous work on ABPs has shown that they can exhibit a first-order wetting transition (see Turci et al., attached). This effect has been investigated by looking at liquid-vapour ‘slabs’ and droplets, showing consistent results. However, the mechanism by which the wetting transition is traversed does not seem to allow for the possibility of a drying transition. To have a chance of observing this, we need to understand the mechanism by which ABPs interact with a surface.</p>
-<p>The aggregation effect at a hard wall arises because ABPs become trapped at the wall and cannot diffuse away quickly enough. The project will attempt to induce a drying transition by coupling the ABP velocity vector to the wall-fluid interaction in such a way as to produce a torque that creates an effective wall-fluid repulsion, possibly enabling a drying transition. Your task will be to modify a standard MD simulation package to introduce this torque and then proceed similarly to the Turci and Wilding paper in PRL 2021, to try to observe a drying transition. If evidence for this is seen, then you will try to quantify the character of the transition and analyse its critical properties.</p>
+<section id="work-in-progress" class="level2">
+<h2 class="anchored" data-anchor-id="work-in-progress">Work in progress</h2>
+<p>The refactoring and improving of the documentation is an ongoing process, so statements in this document may not always be fully up-to-date. When in doubt, contact the LAMMPS developers.</p>
 </section>
-<section id="useful-links" class="level1">
-<h1>Useful Links</h1>
-<section id="general" class="level2">
-<h2 class="anchored" data-anchor-id="general">General</h2>
-<p><a href="https://docs.google.com/spreadsheets/d/1KawPLUBrlTWHJFp9Wju62MBNK2TeH_sQlse-GgJhXiY/edit?usp=sharing">Weekly update of my TSR (Teaching Support Roles)</a></p>
-<p><a href="https://www-webofscience-com.bris.idm.oclc.org/wos/woscc/basic-search">Document search</a></p>
-<p><a href="http://complexity-physics.org/blog/category/events/">Upcoming events by Nonlinear and Complex Physics Group</a></p>
-<p><a href="https://uob.sharepoint.com/sites/physics/SitePages/postgraduate-research-students-category.aspx?xsdata=MDV8MDJ8fDJiODQ5OWNkN2NmODQ1YjI1NTZjMDhkY2RjOWMxZjA0fGIyZTQ3ZjMwY2Q3ZDRhNGVhNWRhYjE4Y2YxYTQxNTFifDB8MHw2Mzg2Mjc4MTAyNzMxNTQ0MTJ8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPakF4Wm1VM1pHSmtMVFprTlRFdE5EZGxZUzFoTVdJMExUWm1OV0kwWm1WaFpEQmxZMTgxT1RZelpUWmpNeTB5Wm1NNUxUUTBZVGt0T1dJNU1DMWlZVEptTlRaaU9UQXlORFJBZFc1eExtZGliQzV6Y0dGalpYTXZiV1Z6YzJGblpYTXZNVGN5TnpFNE5ESXlOams0TUE9PXw5NDBiYTM2YzEyZjE0Y2I1NTU2YzA4ZGNkYzljMWYwNHwyMjFiOWI1Nzc0MmI0NjRkYjIxMTIwOTFmYmZhNzBjZA%3D%3D&amp;sdata=Zm12U1I1RGhFMmpDQm5XM200UENFbHlyV0xHZnBLRURVcWtxVUdNeklvMD0%3D&amp;ovuser=b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b%2Csp13328%40bristol.ac.uk&amp;OR=Teams-HL&amp;CT=1727184244025&amp;clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI1MC8yNDA4MTcwMDQxOSIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D">Physics PGR SharePoint site</a>: <em>These pages should provide you with a ‘one-stop-shop’ for all of your PGR needs, including information about progress procedures, forms and examinations.</em></p>
-<p><a href="https://myerp.bris.ac.uk/agresso/">MyERP</a></p>
+<section id="general-structure" class="level2">
+<h2 class="anchored" data-anchor-id="general-structure">General structure</h2>
+<p>The layout and formatting of added files should follow the example of the existing files. Since many of those were initially derived from their former .txt format versions and the manual has been maintained in that format for many years, there is a large degree of consistency already, so comparison with similar files should give you a good idea what kind of information and sections are needed.</p>
 </section>
-<section id="it" class="level2">
-<h2 class="anchored" data-anchor-id="it">IT</h2>
-<p><a href="https://www.acrc.bris.ac.uk/protected/hpc-docs/index.html#">ACRC HPC Documentation and User Guides</a></p>
-<p><a href="https://hoomd-blue.readthedocs.io/en/latest/tutorial/00-Introducing-HOOMD-blue/00-index.html">Introducing HOOMD-blue</a>: <em>HOOMD-blue is a Python package that performs Molecular Dynamics and hard particle Monte Carlo simulations. HOOMD-blue is general and can be used to model nanoparticles, bead-spring polymers, active matter, and many other types of systems.</em></p>
-<p><a href="https://bristol-training.github.io">Data Science and Research Software Engineering Training</a></p>
-<p><a href="https://github.com/BristolDataScienceSociety">BDDS Python workshops</a></p>
-<p><a href="https://quarto.org/docs/get-started/hello/vscode.html">Quarto Tutorial</a></p>
+<section id="formatting-conventions" class="level2">
+<h2 class="anchored" data-anchor-id="formatting-conventions">Formatting conventions</h2>
+<p>For headlines we try to follow the conventions posted here: https://documentation-style-guide-sphinx.readthedocs.io/en/latest/style-guide.html#headings It seems to be sufficient to have this consistent only within any single file and it is not (yet) enforced strictly, but making this globally consistent makes it easier to move sections around.</p>
+<p>File names, folders, paths, (shell) commands, definitions, makefile settings and similar should be formatted as “literals” with double backward quotes bracketing the item: ``path/to/some/file``</p>
+<p>Keywords and options are formatted in italics: *option*</p>
+<p>Mathematical expressions, equations, symbols are typeset using either a <code>.. math:</code> block or the <code>:math:</code> role.</p>
+<p>Groups of shell commands or LAMMPS input script or C/C++/Python source code should be typeset into a <code>.. code-block::</code> section. A syntax highlighting extension for LAMMPS input scripts is provided, so <code>LAMMPS</code> can be used to indicate the language in the code block in addition to <code>bash</code>, <code>c</code>, <code>c++</code>, <code>console</code>, <code>csh</code>, <code>diff',</code>fortran<code>,</code>json<code>,</code>make<code>,</code>perl<code>,</code>powershell<code>,</code>python<code>,</code>sh<code>, or</code>tcl<code>,</code>text<code>, or</code>yaml<code>.  When no syntax style is indicated, no syntax highlighting is performed.  When typesetting commands executed on the shell, please do not prefix commands with a shell prompt and use</code>bash<code>highlighting, except when the block also shows the output from that command.  In the latter case, please use a dollar sign as the shell prompt and</code>console` for syntax highlighting.</p>
+<p>As an alternative, e.g.&nbsp;to typeset the syntax of file formats a <code>.. parsed-literal::</code> block can be used, which allows some formatting directives, which means that related characters need to be escaped with a preceding backslash: <code>\*</code>.</p>
+<p>For more compact display of alternatives (e.g.&nbsp;compilation or configuration directions for CMake versus GNU make) a <code>.. tabs::</code> block can be used, followed by multiple <code>.. tab::</code> blocks, one for each alternative. This is only used for HTML output. For other outputs, the <code>.. tabs::</code> directive is transparently removed and the individual <code>.. tab::</code> blocks will be replaced with an `.. admonition::`` block. Thus in PDF and ePUB output those will be realized as sequential and plain notes.</p>
+<p>Special remarks can be highlighted with a <code>.. note::</code> block and strong warnings can be put into a <code>.. warning::</code> block. For notes with a title, use <code>.. admonition:: title text</code> followed by <code>:class: note</code>.</p>
+</section>
+<section id="required-steps-when-adding-a-custom-style-to-lammps" class="level2">
+<h2 class="anchored" data-anchor-id="required-steps-when-adding-a-custom-style-to-lammps">Required steps when adding a custom style to LAMMPS</h2>
+<p>When adding a new style (e.g.&nbsp;pair style or a compute or a fix) or a new command, it is <strong>required</strong> to include the <strong>corresponding documentation</strong> in <a href="https://docutils.sourceforge.io/rst.html">reStructuredText format</a>. Those are often new files that need to be added. In order to be included in the documentation, those new files need to be referenced in a <code>.. toctree::</code> block. Most of those use patterns with wild cards, so the addition will be automatic. However, those additions also need to be added to some lists of styles or commands. The <code>make style\_check</code> command when executed in the <code>doc</code> folder will perform a test and report any missing entries and list the affected files. Any references defined with <code>.. \_refname:</code> have to be unique across all documentation files and this can be checked for with <code>make anchor\_check</code>. Finally, a spell-check should be done, which is triggered via <code>make spelling</code>. Any offenses need to be corrected and false positives should be added to the file <code>utils/sphinx-config/false\_positives.txt</code>.</p>
+</section>
+<section id="required-additional-steps-when-adding-a-new-package-to-lammps" class="level2">
+<h2 class="anchored" data-anchor-id="required-additional-steps-when-adding-a-new-package-to-lammps">Required additional steps when adding a new package to LAMMPS</h2>
+<p>When adding a new package, the package must be added to the list of packages in the <code>Packages_list.rst</code> file. If additional build instructions need to be followed, a corresponding section should be added to the <code>Build_extras.rst</code> file and linked from the list at the top of the file as well as the equivalent list in the <code>Build_packages.rst</code> file.</p>
+<p>A detailed description of the package and pointers to configuration, included commands and examples, external pages, author information and more should be added to the <code>Packages_details.rst</code> file.</p>
 
 
 </section>

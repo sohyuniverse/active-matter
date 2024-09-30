@@ -1,4 +1,4 @@
-# Notes on Active Matter PhD project
+# Weekly notes on active matter PhD project
 
 ## Week 1
 
@@ -6,57 +6,57 @@
 
 By James Ladyman and Karoline Wiesner
 
-My final-year MSci project involved the study of a complex system: foreign exchange markets. Each individual currency was treated as a spin in the Ising model, and by applying E.T. Jaynes's principle of maximum entropy, we discovered the structure of interactions between these entities. Remarkably, this simple model of magnetism can also describe the phase transitions of liquid-gas systems, as they fall into the same universality class. This model has even been extended to study how critical our brain is, giving rise to the field of the critical brain hypothesis. Therefore, many ideas during my research project came from neuroscience papers. The financial market and the brain: both are complex systems.
+My final-year MSci project involved the study of a complex system, foreign exchange markets. Each individual currency was treated as a spin in the Ising model, and by applying E.T. Jaynes's principle of maximum entropy, we discovered the structure of interactions between these entities. Remarkably, this simple model of magnetism can also describe the phase transitions of liquid-gas systems, as they fall into the same universality class. This model has even been extended to study how critical our brain is, giving rise to the field of the critical brain hypothesis. Therefore, many ideas during my research project were derived from neuroscience papers. The financial market and the brain: both are complex systems.
 
-About a year ago, I read a paper written by James Ladyman, a professor of philosophy of science at Bristol, titled "What is a Complex System?" (Ladyman et al., 2013). As I started my PhD at Bristol, my second supervisor, Francesco, mentioned that he also published a book about complexity. It was obvious to me that I should read this book.
+About a year ago, I read a paper published by James Ladyman, a professor of philosophy of science at Bristol, titled 'What is a Complex System?' (Ladyman et al., 2013). As I started my PhD at Bristol, my second supervisor, Francesco, mentioned that he also published a book about complexity. It became clear to me that I should read this book.
 
 Chapter 1 presents The Truisms of Complexity Science as follows: 
 
-1. More is different.
+*1. More is different.*
 
-2. Nonliving systems can generate order.
+*2. Nonliving systems can generate order.*
 
-3. Complexity can come from simplicity.
+*3. Complexity can come from simplicity.*
 
-4. Coordinated behaviour does not require an overall controller.
+*4. Coordinated behaviour does not require an overall controller.*
 
-5. Complex systems are often modelled as networks or information processing systems.
+*5. Complex systems are often modelled as networks or information processing systems.*
 
-6. There are various kinds of invariance and forms of universal behaviour in complex systems
+*6. There are various kinds of invariance and forms of universal behaviour in complex systems.*
 
-7. Complexity science is computational and probabilistic.
+*7. Complexity science is computational and probabilistic.*
 
-8. Complexity science involves multiple disciplines.
+*8. Complexity science involves multiple disciplines.*
 
-9. There is a difference between the order that complex systems produce and the order of the complex systems themselves.
+*9. There is a difference between the order that complex systems produce and the order of the complex systems themselves.*
 
 Features that are necessary and sufficient for which kinds of complexity and complex system are as follows: 
 
-1. Numerosity: complex systems involve many interactions among many components.
+*1. Numerosity: complex systems involve many interactions among many components.*
 
-2. Disorder and diversity: the interactions in a complex system are not coordinated or controlled centrally, and the components may differ.
+*2. Disorder and diversity: the interactions in a complex system are not coordinated or controlled centrally, and the components may differ.*
 
-3. Feedback: the interactions in complex systems are iterated so that there is feedback from previous interactions on a time scale relevant to the system’s emergent dynamics.
+*3. Feedback: the interactions in complex systems are iterated so that there is feedback from previous interactions on a time scale relevant to the system’s emergent dynamics.*
 
-4. Non-equilibrium: complex systems are open to the environment and are often driven by something external.
+*4. Non-equilibrium: complex systems are open to the environment and are often driven by something external.*
 
-5. Spontaneous order and self-organisation: complex systems exhibit structure and order that arises out of the interactions among their parts.
+*5. Spontaneous order and self-organisation: complex systems exhibit structure and order that arises out of the interactions among their parts.*
 
-6. Nonlinearity: complex systems exhibit nonlinear dependence on parameters or external drivers.
+*6. Nonlinearity: complex systems exhibit nonlinear dependence on parameters or external drivers.*
 
-7. Robustness: the structure and function of complex systems is stable under relevant perturbations.
+*7. Robustness: the structure and function of complex systems is stable under relevant perturbations.*
 
-8. Nested structure and modularity: there may be multiple scales of structure, clustering and specialisation of function in complex systems.
+*8. Nested structure and modularity: there may be multiple scales of structure, clustering and specialisation of function in complex systems.*
 
-9. History and memory: complex systems often require a very long history to exist and often store information about history.
+*9. History and memory: complex systems often require a very long history to exist and often store information about history.*
 
-10. Adaptive behaviour: complex systems are often able to modify their behaviour depending on the state of the environment and the predictions they make about it.
+*10. Adaptive behaviour: complex systems are often able to modify their behaviour depending on the state of the environment and the predictions they make about it.*
 
 ## Week 2
 
 ### 2024/9/27 Things I did so far
 
-1. Busy weeks due to starting three teaching modules: [Weekly update of my TSR (Teaching Support Roles)](onenote:Overview.one#Links&section-id={D4B227EF-F9FF-864E-A042-9B9A7C2E06E3}&page-id={B7874627-D52D-5043-9E1A-2067E68FAD02}&object-id={537C7D03-2CEB-3142-8063-0EF93BF5A5E9}&25&base-path=https://uob-my.sharepoint.com/personal/sp13328_bristol_ac_uk/Documents/PhD%20in%20Active%20Matter). Looking back, I wish I could have done more reading, as there isn’t much to talk about in terms of active matter research for the next project meeting on Monday.
+1. Busy weeks due to starting three teaching modules: [Weekly update of my TSR (Teaching Support Roles)](onenote:Overview.one#Links&section-id={D4B227EF-F9FF-864E-A042-9B9A7C2E06E3}&page-id={B7874627-D52D-5043-9E1A-2067E68FAD02}&object-id={537C7D03-2CEB-3142-8063-0EF93BF5A5E9}&25&base-path=https://uob-my.sharepoint.com/personal/sp13328_bristol_ac_uk/Documents/PhD%20in%20Active%20Matter). Looking back, I wish I could have completed more reading, as there isn’t much to talk about in terms of active matter research for the next project meeting on Monday.
 
 2. Reading *What is a Complex System?* by James Ladyman and Karoline Wiesner. The purpose of reading is to understand how systems out of thermodynamic equilibrium (a feature of complex systems) relate to a wide range of concepts associated with complexity.
 
@@ -83,12 +83,17 @@ Features that are necessary and sufficient for which kinds of complexity and com
 
     • [The Statistical Physics of Cognition](http://complexity-physics.org/blog/2024/08/19/the-statistical-physics-of-cognition)
 
-So, a trip to London, how to sort out things with Clarity, etc
+    So, a trip to London, how to sort out things with Clarity, and other arrangements.
 
 4. Set up [RDSF](https://uob.sharepoint.com/sites/itservices/SitePages/filestores.aspx) data storage
 (Though I checked, OneDrive for Business offers 2TB of storage: [Overview of OneDrive for Business](https://uob.sharepoint.com/sites/systemsupport/SitePages/onedrive-overview.aspx))
 
-5. Brief plan discussion: reading Mary Coe's thesis, then Molecular Dynamics book
+5. Brief plan discussion: reading Mary Coe's thesis, then Molecular Simulation book
 
 6. Are there MSci students working on this project?
 ![MSci project proposal](images/ProjectProposalsMsci2024-112.jpg)
+
+#### Apps to install on university MacBook
+
+1. Text Blaze
+2. AdGuard
