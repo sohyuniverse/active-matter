@@ -38,3 +38,5 @@ The aggregation effect at a hard wall arises because ABPs become trapped at the 
 [Data Science and Research Software Engineering Training](https://bristol-training.github.io)
 
 [BDDS Python workshops](https://github.com/BristolDataScienceSociety)
+
+[Quarto Tutorial](https://quarto.org/docs/get-started/hello/vscode.html)

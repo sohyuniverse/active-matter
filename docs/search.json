@@ -9,9 +9,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Author",
+    "title": "Bristol Active Matter Group",
     "section": "",
-    "text": "Author"
+    "text": "Author: Sohyun Park\nSupervisors: Prof. Nigel Wilding, Dr. Francesco Turci"
   },
   {
     "objectID": "notes.html",
@@ -109,6 +109,6 @@
     "href": "index.html#it",
     "title": "Purpose of This Website",
     "section": "IT",
-    "text": "IT\nACRC HPC Documentation and User Guides\nIntroducing HOOMD-blue: HOOMD-blue is a Python package that performs Molecular Dynamics and hard particle Monte Carlo simulations. HOOMD-blue is general and can be used to model nanoparticles, bead-spring polymers, active matter, and many other types of systems.\nData Science and Research Software Engineering Training\nBDDS Python workshops"
+    "text": "IT\nACRC HPC Documentation and User Guides\nIntroducing HOOMD-blue: HOOMD-blue is a Python package that performs Molecular Dynamics and hard particle Monte Carlo simulations. HOOMD-blue is general and can be used to model nanoparticles, bead-spring polymers, active matter, and many other types of systems.\nData Science and Research Software Engineering Training\nBDDS Python workshops\nQuarto Tutorial"
   }
 ]
