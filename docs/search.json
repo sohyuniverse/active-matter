@@ -18,7 +18,7 @@
     "href": "notes.html",
     "title": "Weekly notes on active matter PhD project",
     "section": "",
-    "text": "By James Ladyman and Karoline Wiesner\nMy final-year MSci project involved the study of a complex system, foreign exchange markets. Each individual currency was treated as a spin in the Ising model, and by applying E.T. Jaynes’s principle of maximum entropy, we discovered the structure of interactions between these entities. Remarkably, this simple model of magnetism can also describe the phase transitions of liquid-gas systems, as they fall into the same universality class. This model has even been extended to study how critical our brain is, giving rise to the field of the critical brain hypothesis. Therefore, many ideas during my research project were derived from neuroscience papers. The financial market and the brain: both are complex systems.\nAbout a year ago, I read a paper published by James Ladyman, a professor of philosophy of science at Bristol, titled ‘What is a Complex System?’ (Ladyman et al., 2013). As I started my PhD at Bristol, my second supervisor, Francesco, mentioned that he also published a book about complexity. It became clear to me that I should read this book.\nChapter 1 presents The Truisms of Complexity Science as follows:\n1. More is different.\n2. Nonliving systems can generate order.\n3. Complexity can come from simplicity.\n4. Coordinated behaviour does not require an overall controller.\n5. Complex systems are often modelled as networks or information processing systems.\n6. There are various kinds of invariance and forms of universal behaviour in complex systems.\n7. Complexity science is computational and probabilistic.\n8. Complexity science involves multiple disciplines.\n9. There is a difference between the order that complex systems produce and the order of the complex systems themselves.\nFeatures that are necessary and sufficient for which kinds of complexity and complex system are as follows:\n1. Numerosity: complex systems involve many interactions among many components.\n2. Disorder and diversity: the interactions in a complex system are not coordinated or controlled centrally, and the components may differ.\n3. Feedback: the interactions in complex systems are iterated so that there is feedback from previous interactions on a time scale relevant to the system’s emergent dynamics.\n4. Non-equilibrium: complex systems are open to the environment and are often driven by something external.\n5. Spontaneous order and self-organisation: complex systems exhibit structure and order that arises out of the interactions among their parts.\n6. Nonlinearity: complex systems exhibit nonlinear dependence on parameters or external drivers.\n7. Robustness: the structure and function of complex systems is stable under relevant perturbations.\n8. Nested structure and modularity: there may be multiple scales of structure, clustering and specialisation of function in complex systems.\n9. History and memory: complex systems often require a very long history to exist and often store information about history.\n10. Adaptive behaviour: complex systems are often able to modify their behaviour depending on the state of the environment and the predictions they make about it.\n\n\n\n\n\n\n\nBusy weeks due to starting three teaching modules: Weekly update of my TSR (Teaching Support Roles). Looking back, I wish I could have completed more reading, as there isn’t much to talk about in terms of active matter research for the next project meeting on Monday.\nReading What is a Complex System? by James Ladyman and Karoline Wiesner. The purpose of reading is to understand how systems out of thermodynamic equilibrium (a feature of complex systems) relate to a wide range of concepts associated with complexity.\n• There was a video that helped clarify what is meant by a Markov chain and a stochastic process being stationary: Markov Chains Clearly Explained! Part - 1. His other videos are helpful as well. For example, when I saw \\(P_{ij}^{(n)} = A_{ij}^n\\) from the n-Step Transition Matrix video (Part 3), it was quite surprising. However, the Part 5 video on hidden Markov models wasn’t very helpful, but reading the appendix in the book was sufficient.\n• What I’ve felt from reading this book (currently at p.90) is that it presents a lot of different ideas and has interesting discussions on the history of science, but I only seem to get excited when it starts mentioning the brain. I’m not sure if I’m necessarily interested in quantifying complexity. From the Apple notes on 28/9/2024:\nAs I’m reading through What is a Complex System?, it seems that the description of a complex system arises as we have more representations at different scales of analysis. The concept of ‘complexity’ was destined to arise as the scientific era evolved.\nNon-equilibrium systems arise because we define what systems are in thermodynamic equilibrium, which are idealisations.\nThings that fail to be idealised fall into this dualistic concept: non-equilibrium.\n\n\n\n\n\n\n\n\n\n\nMeeting with Max on Friday at noon (4th of Oct), thinking of going to Budapest Café\n‘Setting Expectations’ document\nTwo conferences to join:\n• The Dao of Complexity workshop\n• The Statistical Physics of Cognition\nSo, a trip to London, how to sort out things with Clarity, and other arrangements.\nSet up RDSF data storage (Though I checked, OneDrive for Business offers 2TB of storage: Overview of OneDrive for Business)\nBrief plan discussion: reading Mary Coe’s thesis, then Understanding Molecular Simulation book\nAre there MSci students working on this project? \n\n\n\n\n\n\nText Blaze\nAdGuard"
+    "text": "By James Ladyman and Karoline Wiesner\nMy final-year MSci project involved the study of a complex system, foreign exchange markets. Each individual currency was treated as a spin in the Ising model, and by applying E.T. Jaynes’s principle of maximum entropy, we discovered the structure of interactions between these entities. Remarkably, this simple model of magnetism can also describe the phase transitions of liquid-gas systems, as they fall into the same universality class. This model has even been extended to study how critical our brain is, giving rise to the field of the critical brain hypothesis. Therefore, many ideas during my research project were derived from neuroscience papers. The financial market and the brain: both are complex systems.\nAbout a year ago, I read a paper published by James Ladyman, a professor of philosophy of science at Bristol, titled ‘What is a Complex System?’ (Ladyman et al., 2013). As I started my PhD at Bristol, my second supervisor, Francesco, mentioned that he also published a book about complexity. It became clear to me that I should read this book.\nChapter 1 presents The Truisms of Complexity Science as follows:\n1. More is different.\n2. Nonliving systems can generate order.\n3. Complexity can come from simplicity.\n4. Coordinated behaviour does not require an overall controller.\n5. Complex systems are often modelled as networks or information processing systems.\n6. There are various kinds of invariance and forms of universal behaviour in complex systems.\n7. Complexity science is computational and probabilistic.\n8. Complexity science involves multiple disciplines.\n9. There is a difference between the order that complex systems produce and the order of the complex systems themselves.\nFeatures that are necessary and sufficient for which kinds of complexity and complex system are as follows:\n1. Numerosity: complex systems involve many interactions among many components.\n2. Disorder and diversity: the interactions in a complex system are not coordinated or controlled centrally, and the components may differ.\n3. Feedback: the interactions in complex systems are iterated so that there is feedback from previous interactions on a time scale relevant to the system’s emergent dynamics.\n4. Non-equilibrium: complex systems are open to the environment and are often driven by something external.\n5. Spontaneous order and self-organisation: complex systems exhibit structure and order that arises out of the interactions among their parts.\n6. Nonlinearity: complex systems exhibit nonlinear dependence on parameters or external drivers.\n7. Robustness: the structure and function of complex systems is stable under relevant perturbations.\n8. Nested structure and modularity: there may be multiple scales of structure, clustering and specialisation of function in complex systems.\n9. History and memory: complex systems often require a very long history to exist and often store information about history.\n10. Adaptive behaviour: complex systems are often able to modify their behaviour depending on the state of the environment and the predictions they make about it.\n\n\n\n\n\n\n\nBusy weeks due to starting three teaching modules: Weekly update of my TSR (Teaching Support Roles). Looking back, I wish I could have completed more reading, as there isn’t much to talk about in terms of active matter research for the next project meeting on Monday.\nReading What is a Complex System? by James Ladyman and Karoline Wiesner. The purpose of reading is to understand how systems out of thermodynamic equilibrium (a feature of complex systems) relate to a wide range of concepts associated with complexity.\n• There was a video that helped clarify what is meant by a Markov chain and a stochastic process being stationary: Markov Chains Clearly Explained! Part - 1. His other videos are helpful as well. For example, when I saw \\(P_{ij}^{(n)} = A_{ij}^n\\) from the n-Step Transition Matrix video (Part 3), it was quite surprising. However, the Part 5 video on hidden Markov models wasn’t very helpful, but reading the appendix in the book was sufficient.\n• What I’ve felt from reading this book (currently at p.90) is that it presents a lot of different ideas and has interesting discussions on the history of science, but I only seem to get excited when it starts mentioning the brain. I’m not sure if I’m necessarily interested in quantifying complexity. From the Apple notes on 28/9/2024:\nAs I’m reading through What is a Complex System?, it seems that the description of a complex system arises as we have more representations at different scales of analysis. The concept of ‘complexity’ was destined to arise as the scientific era evolved.\nNon-equilibrium systems arise because we define what systems are in thermodynamic equilibrium, which are idealisations.\nThings that fail to be idealised fall into this dualistic concept: non-equilibrium.\n\n\n\n\n\n\n\n\n\n\nMeeting with Max on Friday at noon (4th of Oct), thinking of going to Budapest Café\n‘Setting Expectations’ document\nTwo conferences to join:\n• The Dao of Complexity workshop\n• The Statistical Physics of Cognition\nSo, a trip to London, how to sort out things with Clarity, and other arrangements.\nSet up RDSF data storage (Though I checked, OneDrive for Business offers 2TB of storage: Overview of OneDrive for Business)\nBrief plan discussion: reading Mary Coe’s thesis, then Understanding Molecular Simulation book\nAre there MSci students working on this project? \n\n\n\n\n\n\nAdGuard\nText Blaze\nSafari extensions: LibKey Nomad"
   },
   {
     "objectID": "notes.html#week-2",
@@ -88,7 +88,7 @@
     "href": "notes.html#week-3",
     "title": "Weekly notes on active matter PhD project",
     "section": "",
-    "text": "Meeting with Max on Friday at noon (4th of Oct), thinking of going to Budapest Café\n‘Setting Expectations’ document\nTwo conferences to join:\n• The Dao of Complexity workshop\n• The Statistical Physics of Cognition\nSo, a trip to London, how to sort out things with Clarity, and other arrangements.\nSet up RDSF data storage (Though I checked, OneDrive for Business offers 2TB of storage: Overview of OneDrive for Business)\nBrief plan discussion: reading Mary Coe’s thesis, then Understanding Molecular Simulation book\nAre there MSci students working on this project? \n\n\n\n\n\n\nText Blaze\nAdGuard"
+    "text": "Meeting with Max on Friday at noon (4th of Oct), thinking of going to Budapest Café\n‘Setting Expectations’ document\nTwo conferences to join:\n• The Dao of Complexity workshop\n• The Statistical Physics of Cognition\nSo, a trip to London, how to sort out things with Clarity, and other arrangements.\nSet up RDSF data storage (Though I checked, OneDrive for Business offers 2TB of storage: Overview of OneDrive for Business)\nBrief plan discussion: reading Mary Coe’s thesis, then Understanding Molecular Simulation book\nAre there MSci students working on this project? \n\n\n\n\n\n\nAdGuard\nText Blaze\nSafari extensions: LibKey Nomad"
   },
   {
     "objectID": "notes.html#week-1",
@@ -102,7 +102,7 @@
     "href": "index.html#general",
     "title": "Project Description",
     "section": "General",
-    "text": "General\nWeekly update of my TSR (Teaching Support Roles)\nDocument search\nUpcoming events by Nonlinear and Complex Physics Group\nPhysics PGR SharePoint site: These pages should provide you with a ‘one-stop-shop’ for all of your PGR needs, including information about progress procedures, forms and examinations.\nMyERP"
+    "text": "General\nWeekly update of my TSR (Teaching Support Roles)\nDocument search\nUpcoming events by Nonlinear and Complex Physics Group\nCourses to audit\nPhysics PGR SharePoint site: These pages should provide you with a ‘one-stop-shop’ for all of your PGR needs, including information about progress procedures, forms and examinations.\nMyERP"
   },
   {
     "objectID": "index.html#it",
@@ -656,5 +656,208 @@
     "title": "Project Description",
     "section": "Final Round!",
     "text": "Final Round!\nflatly vs united\nWinner: flatly! More professional, less adorable. But honestly, united put up a cute fight.\nFor now, flatly reigns supreme… but united is right there, ready for a rematch."
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/dihedrals/dihedral.html",
+    "href": "mylammps/python/examples/pylammps/dihedrals/dihedral.html",
+    "title": "Validating a dihedral potential",
+    "section": "",
+    "text": "%matplotlib notebook\n\n\nimport matplotlib.pyplot as plt\n\n\nfrom lammps import IPyLammps\n\n\nL = IPyLammps()\n\n\nimport math\n\nL.units(\"real\")\nL.atom_style(\"molecular\")\n\nL.boundary(\"f f f\")\nL.neighbor(0.3, \"bin\")\n\nL.dihedral_style(\"harmonic\")\n\n\nL.read_data(\"data.dihedral\")\n\n\nL.pair_style(\"zero\", 5)\nL.pair_coeff(\"*\", \"*\")\n\n\nL.mass(1, 1.0)\n\n\nL.velocity(\"all\", \"set\", 0.0, 0.0, 0.0)\n\n\nL.run(0);\n\n\nL.image(zoom=1.0)\n\n\nL.atoms[3].position\n\n\nL.atoms[3].position = (1.0, 0.0, 1.0)\n\n\nL.image(zoom=1.0)\n\n\nL.eval(\"pe\")\n\n\nL.atoms[3].position = (1.0, 0.0, -1.0)\n\n\nL.run(0);\n\n\nphi = [d * math.pi / 180 for d in range(360)]\n\n\npos = [(1.0, math.cos(p), math.sin(p)) for p in phi]\n\n\nK = 80.0\nd = 1\nn = 2\nE_analytical = [K * (1 + d * math.cos(n*p)) for p in phi]\n\n\npe = []\nfor p in pos:\n    L.atoms[3].position = p\n    L.run(0);\n    pe.append(L.eval(\"pe\"))\n\n\nplt.plot(range(360), pe, range(360), E_analytical)\nplt.xlabel('angle')\nplt.ylabel('E')"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/simple.html",
+    "href": "mylammps/python/examples/pylammps/simple.html",
+    "title": "Example 1: Using LAMMPS with PyLammps",
+    "section": "",
+    "text": "The LAMMPS Python package provides multiple interfaces. The PyLammps interface is a high-level abstration of the low-level lammps interface. IPyLammps further extends this interface with functions that are useful for Jupyter notebooks to enable embedding generated graphics and videos."
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/simple.html#prerequisites",
+    "href": "mylammps/python/examples/pylammps/simple.html#prerequisites",
+    "title": "Example 1: Using LAMMPS with PyLammps",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nBefore Running this example, make sure your Python environment can find the LAMMPS shared library (liblammps.so) and the LAMMPS Python package is installed. If you followed the README in this folder, this should already be the case. You can also find more information about how to compile LAMMPS and install the LAMMPS Python package in the LAMMPS manual. There is also a dedicated PyLammps HowTo."
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/simple.html#creating-a-new-simulation",
+    "href": "mylammps/python/examples/pylammps/simple.html#creating-a-new-simulation",
+    "title": "Example 1: Using LAMMPS with PyLammps",
+    "section": "Creating a new simulation",
+    "text": "Creating a new simulation\nOnce the LAMMPS shared library and the LAMMPS Python package are installed, you can create a new LAMMMPS instance in your Python interpreter as follows:\n\nfrom lammps import IPyLammps\nL = IPyLammps()\n\nWith PyLammps/IPyLammps you can write LAMMPS simulations similar to the input script language. Take the following LAMMPS input script:\n# 3d Lennard-Jones melt\n\nunits        lj\natom_style   atomic\n\nlattice      fcc 0.8442\nregion       box block 0 4 0 4 0 4\ncreate_box   1 box\ncreate_atoms 1 box\nmass         1 1.0\n\nvelocity     all create 1.44 87287 loop geom\n\npair_style   lj/cut 2.5\npair_coeff   1 1 1.0 1.0 2.5\n\nneighbor     0.3 bin\nneigh_modify delay 0 every 20 check no\n\nfix          1 all nve\n\nthermo       50\nThe equivalent can be written with PyLammps/IPyLammps:\n\n# 3d Lennard-Jones melt\n\nL.units(\"lj\")\nL.atom_style(\"atomic\")\n\nL.lattice(\"fcc\", 0.8442)\nL.region(\"box\", \"block\", 0, 4, 0, 4, 0, 4)\nL.create_box(1, \"box\")\nL.create_atoms(1, \"box\")\nL.mass(1, 1.0)\n\nL.velocity(\"all\", \"create\", 1.44, 87287, \"loop geom\")\n\nL.pair_style(\"lj/cut\", 2.5)\nL.pair_coeff(1, 1, 1.0, 1.0, 2.5)\n\nL.neighbor(0.3, \"bin\")\nL.neigh_modify(\"delay\", 0, \"every\", 20, \"check no\")\n\nL.fix(\"1\", \"all\", \"nve\")\n\nL.thermo(50)"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/simple.html#visualizing-the-initial-state",
+    "href": "mylammps/python/examples/pylammps/simple.html#visualizing-the-initial-state",
+    "title": "Example 1: Using LAMMPS with PyLammps",
+    "section": "Visualizing the initial state",
+    "text": "Visualizing the initial state\nIPyLammps allows you to visualize the current simulation state with the image command. Here we use it to create an image of the initial state of the system.\n\nL.image(zoom=1.0)"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/simple.html#running-simulations",
+    "href": "mylammps/python/examples/pylammps/simple.html#running-simulations",
+    "title": "Example 1: Using LAMMPS with PyLammps",
+    "section": "Running simulations",
+    "text": "Running simulations\nUse the run command to start the simulation. In Jupyter the return value of the last command will be displayed. The run command will return the output of the simulation.\n\nL.run(150)\n\nYou can suppress it by adding a semicolon ;.\n\nL.run(100);\n\nVisualizing the system will now show us how the atoms have moved.\n\nL.image(zoom=1.0)"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/simple.html#post-processing-thermo-output",
+    "href": "mylammps/python/examples/pylammps/simple.html#post-processing-thermo-output",
+    "title": "Example 1: Using LAMMPS with PyLammps",
+    "section": "Post-processing thermo output",
+    "text": "Post-processing thermo output\nIndependent of whether or not you suppress or show the output of the run command, PyLammps will record the output. Each run command creates a new entry in the L.runs list. So far our PyLammps instance L executed two run commands:\n\nlen(L.runs)\n\nEach entry contains information about the simulation run, including the thermo output for the printed out time steps.\n# thermo output of a LAMMPS simulation run\nStep Temp E_pair E_mol TotEng Press\n       0         1.44   -6.7733681            0   -4.6218056   -5.0244179\n      50   0.70303849   -5.6796164            0    -4.629178   0.50453907\n     100   0.72628044   -5.7150774            0   -4.6299123   0.29765862\n     150   0.78441711    -5.805142            0   -4.6331125 -0.086709661\nPyLammps already parses this information and makes it available as dictionaries and arrays.\n\nL.runs[0]\n\n\nL.runs[1]\n\nFor example, the first run was 150 time steps, with printing out a line every 50 steps. You can access the list of time steps using {entry}.thermo.Step.\n\nL.runs[0].thermo.Step\n\nThe corresponding values of each thermo quantity are also accessed this way:\n\nL.runs[0].thermo.TotEng\n\nTogether you can use this information to run post-processing on these values or even plot it using matplotlib:\n\n%matplotlib inline\nimport matplotlib.pyplot as plt\n\nplt.xlabel('time step')\nplt.ylabel('Total Energy')\nplt.plot(L.runs[0].thermo.Step, L.runs[0].thermo.TotEng)"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage_bonds.html",
+    "href": "mylammps/python/examples/pylammps/interface_usage_bonds.html",
+    "title": "Example 3: 2D circle of particles inside of box with LJ walls",
+    "section": "",
+    "text": "Before running this example, make sure your Python environment can find the LAMMPS shared library (liblammps.so) and the LAMMPS Python package is installed. If you followed the README in this folder, this should already be the case. You can also find more information about how to compile LAMMPS and install the LAMMPS Python package in the LAMMPS manual. There is also a dedicated PyLammps HowTo."
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage_bonds.html#prerequisites",
+    "href": "mylammps/python/examples/pylammps/interface_usage_bonds.html#prerequisites",
+    "title": "Example 3: 2D circle of particles inside of box with LJ walls",
+    "section": "",
+    "text": "Before running this example, make sure your Python environment can find the LAMMPS shared library (liblammps.so) and the LAMMPS Python package is installed. If you followed the README in this folder, this should already be the case. You can also find more information about how to compile LAMMPS and install the LAMMPS Python package in the LAMMPS manual. There is also a dedicated PyLammps HowTo."
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage_bonds.html#setup-system",
+    "href": "mylammps/python/examples/pylammps/interface_usage_bonds.html#setup-system",
+    "title": "Example 3: 2D circle of particles inside of box with LJ walls",
+    "section": "Setup system",
+    "text": "Setup system\n\nfrom lammps import IPyLammps\n\n\nL = IPyLammps()\n\n\n# 2d circle of particles inside a box with LJ walls\nimport math\n\nb = 0\nx = 50\ny = 20\nd = 20\n\n# careful not to slam into wall too hard\n\nv = 0.3\nw = 0.08\n                \nL.units(\"lj\")\nL.dimension(2)\nL.atom_style(\"bond\")\nL.boundary(\"f f p\")\n\nL.lattice(\"hex\", 0.85)\nL.region(\"box\", \"block\", 0, x, 0, y, -0.5, 0.5)\nL.create_box(1, \"box\", \"bond/types\", 1, \"extra/bond/per/atom\", 6)\nL.region(\"circle\", \"sphere\", d/2.0+1.0, d/2.0/math.sqrt(3.0)+1, 0.0, d/2.0)\nL.create_atoms(1, \"region\", \"circle\")\nL.mass(1, 1.0)\n\nL.velocity(\"all create 0.5 87287 loop geom\")\nL.velocity(\"all set\", v, w, 0, \"sum yes\")\n\nL.pair_style(\"lj/cut\", 2.5)\nL.pair_coeff(1, 1, 10.0, 1.0, 2.5)\n\nL.bond_style(\"harmonic\")\nL.bond_coeff(1, 10.0, 1.2)\n\nL.create_bonds(\"many\", \"all\", \"all\", 1, 1.0, 1.5)\n\nL.neighbor(0.3, \"bin\")\nL.neigh_modify(\"delay\", 0, \"every\", 1, \"check yes\")\n\nL.fix(1, \"all\", \"nve\")\n\nL.fix(2, \"all wall/lj93 xlo 0.0 1 1 2.5 xhi\", x, \"1 1 2.5\")\nL.fix(3, \"all wall/lj93 ylo 0.0 1 1 2.5 yhi\", y, \"1 1 2.5\")"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage_bonds.html#visualize-initial-state",
+    "href": "mylammps/python/examples/pylammps/interface_usage_bonds.html#visualize-initial-state",
+    "title": "Example 3: 2D circle of particles inside of box with LJ walls",
+    "section": "Visualize initial state",
+    "text": "Visualize initial state\n\nL.image(zoom=1.8)"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage_bonds.html#run-simulation-and-visualize-new-state",
+    "href": "mylammps/python/examples/pylammps/interface_usage_bonds.html#run-simulation-and-visualize-new-state",
+    "title": "Example 3: 2D circle of particles inside of box with LJ walls",
+    "section": "Run simulation and visualize new state",
+    "text": "Run simulation and visualize new state\n\nL.thermo_style(\"custom step temp epair press\")\nL.thermo(100)\noutput = L.run(40000)\nL.image(zoom=1.8)"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage_bonds.html#queries-about-lammps-simulation",
+    "href": "mylammps/python/examples/pylammps/interface_usage_bonds.html#queries-about-lammps-simulation",
+    "title": "Example 3: 2D circle of particles inside of box with LJ walls",
+    "section": "Queries about LAMMPS simulation",
+    "text": "Queries about LAMMPS simulation\n\nL.system\n\n\nL.system.natoms\n\n\nL.system.nbonds\n\n\nL.system.nbondtypes\n\n\nL.communication\n\n\nL.fixes\n\n\nL.computes\n\n\nL.dumps\n\n\nL.groups"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage_bonds.html#working-with-lammps-variables",
+    "href": "mylammps/python/examples/pylammps/interface_usage_bonds.html#working-with-lammps-variables",
+    "title": "Example 3: 2D circle of particles inside of box with LJ walls",
+    "section": "Working with LAMMPS Variables",
+    "text": "Working with LAMMPS Variables\n\nL.variable(\"a index 2\")\n\n\nL.variables\n\n\nL.variable(\"t equal temp\")\n\n\nL.variables\n\n\nimport sys\n\nif sys.version_info &lt; (3, 0):\n    # In Python 2 'print' is a restricted keyword, which is why you have to use the lmp_print function instead.\n    x = float(L.lmp_print('\"${a}\"'))\nelse:\n    # In Python 3 the print function can be redefined.\n    # x = float(L.print('\"${a}\"')\")\n    \n    # To avoid a syntax error in Python 2 executions of this notebook, this line is packed into an eval statement\n    x = float(eval(\"L.print('\\\"${a}\\\"')\"))\nx\n\n\nL.variables['t'].value\n\n\nL.eval(\"v_t/2.0\")\n\n\nL.variable(\"b index a b c\")\n\n\nL.variables['b'].value\n\n\nL.eval(\"v_b\")\n\n\nL.variables['b'].definition\n\n\nL.variable(\"i loop 10\")\n\n\nL.variables['i'].value\n\n\nL.next(\"i\")\nL.variables['i'].value\n\n\nL.eval(\"ke\")"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage_bonds.html#accessing-atom-data",
+    "href": "mylammps/python/examples/pylammps/interface_usage_bonds.html#accessing-atom-data",
+    "title": "Example 3: 2D circle of particles inside of box with LJ walls",
+    "section": "Accessing Atom data",
+    "text": "Accessing Atom data\n\nL.atoms[0]\n\n\ndir(L.atoms[0])\n\n\nL.atoms[0].position\n\n\nL.atoms[0].id\n\n\nL.atoms[0].velocity\n\n\nL.atoms[0].force\n\n\nL.atoms[0].type"
+  },
+  {
+    "objectID": "mylammps/tools/lammps-gui/TODO.html",
+    "href": "mylammps/tools/lammps-gui/TODO.html",
+    "title": "Short term goals (v1.x)",
+    "section": "",
+    "text": "LAMMPS-GUI TODO list:\n\nShort term goals (v1.x)\n\nimplement a timed “Auto-Save” feature that saves after some idle time. set timeout in Editor preferences.\nadd a “Filter data” checkbox to the “Charts” window to select whether data should be dropped.\nadd a “Charts tab” to the preferences with the following (default) settings:\n\ndefault filter data yes/no\ndefault smooth parameters\ndefault plot colors\nenable “raw” or “smooth” or “both”\n\nadd QLineEdit field to enter plot title\nadd a “Colors” menu to the image viewer to adjust color settings for the current image (unlike the defaults in the perferences) including assigning colors to individual atom types.\nSupport color by property (e.g. scan computes or fixes with per-atom data), define colormaps etc.\nAdd a “Diameters” dialog where diamaters can by specified by atom type\nfigure out how widgets can be resized to fraction of available screen size.\nfigure out stacking order of frames and whether it can be more flexible\nimplement indenting regions for (nested) loops?\nimplement data file manager GUI with the following features:\n\nimport coordinates and topology via VMD molfile plugins\nimport coordinates and topology from intermol\nimport coordinates and topology from OpenBabel\nstore data internally in a generalized YAML format\nadd/remove columns to per-atom data\nchange atom style for export to data file\nmerge one system to another\nedit mapping between numeric and symbolic types. create labelmaps.\nimport/export LAMMPS data and molecule files\nstore coordinates internally as unwrapped coordinates\nrecenter coordinates\nedit box boundaries\nreadjust box to extent of atoms (with or without estimated radius)\ncall to LAMMPS to create geometries from lattices (with/without molecule files) and STL files\ncall to LAMMPS to generate visualizations of geometries\nedit force field parameters, e.g. apply charmm\nedit / manage labelmap\n\n\n\n\nLong term ideas (v2.x)\n\nrewrite entire application to build the App and its layout manually\nalso a rewrite should establish consistent naming conventions. now we have a mix of LAMMPS style, Qt style, and others.\nadd option to attach a debugger to the running program (highly non-portable, need customization support in preferences)\nwrite a “wizard” dialog that can be used for beginners to create an input file template for a few typical use scenarios (could perhaps use some LLM based KI to look up suggestions for answers?)."
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage.html",
+    "href": "mylammps/python/examples/pylammps/interface_usage.html",
+    "title": "Example 2: Using the PyLammps interface",
+    "section": "",
+    "text": "Before running this example, make sure your Python environment can find the LAMMPS shared library (liblammps.so) and the LAMMPS Python package is installed. If you followed the README in this folder, this should already be the case. You can also find more information about how to compile LAMMPS and install the LAMMPS Python package in the LAMMPS manual. There is also a dedicated PyLammps HowTo."
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage.html#prerequisites",
+    "href": "mylammps/python/examples/pylammps/interface_usage.html#prerequisites",
+    "title": "Example 2: Using the PyLammps interface",
+    "section": "",
+    "text": "Before running this example, make sure your Python environment can find the LAMMPS shared library (liblammps.so) and the LAMMPS Python package is installed. If you followed the README in this folder, this should already be the case. You can also find more information about how to compile LAMMPS and install the LAMMPS Python package in the LAMMPS manual. There is also a dedicated PyLammps HowTo."
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage.html#setup-system",
+    "href": "mylammps/python/examples/pylammps/interface_usage.html#setup-system",
+    "title": "Example 2: Using the PyLammps interface",
+    "section": "Setup system",
+    "text": "Setup system\n\nfrom lammps import IPyLammps\n\n\nL = IPyLammps()\n\n\n# 3d Lennard-Jones melt\nL.units(\"lj\")\nL.atom_style(\"atomic\")\nL.atom_modify(\"map array\")\n\nL.lattice(\"fcc\", 0.8442)\nL.region(\"box block\", 0, 4, 0, 4, 0, 4)\nL.create_box(1, \"box\")\nL.create_atoms(1, \"box\")\nL.mass(1, 1.0)\n\nL.velocity(\"all create\", 1.44, 87287, \"loop geom\")\n\nL.pair_style(\"lj/cut\", 2.5)\nL.pair_coeff(1, 1, 1.0, 1.0, 2.5)\n\nL.neighbor(0.3, \"bin\")\nL.neigh_modify(\"delay 0 every 20 check no\")\n\nL.fix(\"1 all nve\")\n\nL.variable(\"fx atom fx\")\n\nL.run(10)"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage.html#visualize-the-initial-state",
+    "href": "mylammps/python/examples/pylammps/interface_usage.html#visualize-the-initial-state",
+    "title": "Example 2: Using the PyLammps interface",
+    "section": "Visualize the initial state",
+    "text": "Visualize the initial state\n\nL.image(zoom=1)"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage.html#queries-about-lammps-simulation",
+    "href": "mylammps/python/examples/pylammps/interface_usage.html#queries-about-lammps-simulation",
+    "title": "Example 2: Using the PyLammps interface",
+    "section": "Queries about LAMMPS simulation",
+    "text": "Queries about LAMMPS simulation\n\nL.system\n\n\nL.system.natoms\n\n\nL.communication\n\n\nL.fixes\n\n\nL.computes\n\n\nL.dumps\n\n\nL.groups"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage.html#working-with-lammps-variables",
+    "href": "mylammps/python/examples/pylammps/interface_usage.html#working-with-lammps-variables",
+    "title": "Example 2: Using the PyLammps interface",
+    "section": "Working with LAMMPS Variables",
+    "text": "Working with LAMMPS Variables\n\nL.variable(\"a index 2\")\n\n\nL.variables\n\n\nL.variable(\"t equal temp\")\n\n\nL.variables\n\n\nimport sys\n\nif sys.version_info &lt; (3, 0):\n    # In Python 2 'print' is a restricted keyword, which is why you have to use the lmp_print function instead.\n    x = float(L.lmp_print('\"${a}\"'))\nelse:\n    # In Python 3 the print function can be redefined.\n    # x = float(L.print('\"${a}\"')\")\n    \n    # To avoid a syntax error in Python 2 executions of this notebook, this line is packed into an eval statement\n    x = float(eval(\"L.print('\\\"${a}\\\"')\"))\nx\n\n\nL.variables['t'].value\n\n\nL.eval(\"v_t/2.0\")\n\n\nL.variable(\"b index a b c\")\n\n\nL.variables['b'].value\n\n\nL.eval(\"v_b\")\n\n\nL.variables['b'].definition\n\n\nL.lmp.command('variable i loop 10')\n\n\nL.variable(\"i loop 10\")\n\n\nL.variables['i'].value\n\n\nL.next(\"i\")\nL.variables['i'].value\n\n\nL.eval(\"ke\")"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage.html#accessing-atom-data",
+    "href": "mylammps/python/examples/pylammps/interface_usage.html#accessing-atom-data",
+    "title": "Example 2: Using the PyLammps interface",
+    "section": "Accessing Atom data",
+    "text": "Accessing Atom data\n\nL.atoms[0]\n\n\ndir(L.atoms[0])\n\n\nL.atoms[0].position\n\n\nL.atoms[0].id\n\n\nL.atoms[0].velocity\n\n\nL.atoms[0].force\n\n\nL.atoms[0].type\n\n\nL.variables['fx'].value"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage.html#accessing-thermo-data",
+    "href": "mylammps/python/examples/pylammps/interface_usage.html#accessing-thermo-data",
+    "title": "Example 2: Using the PyLammps interface",
+    "section": "Accessing thermo data",
+    "text": "Accessing thermo data\n\nL.runs\n\n\nL.runs[0]\n\n\nL.runs[0].thermo\n\n\nL.runs[0].thermo\n\n\ndir(L.runs[0].thermo)"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/interface_usage.html#saving-session-to-as-lammps-input-file",
+    "href": "mylammps/python/examples/pylammps/interface_usage.html#saving-session-to-as-lammps-input-file",
+    "title": "Example 2: Using the PyLammps interface",
+    "section": "Saving session to as LAMMPS input file",
+    "text": "Saving session to as LAMMPS input file\nPyLammps can keep track of all LAMMPS commands that are executed. This allows you to prototype a script and then later on save it as a regular input script:\n\nL = IPyLammps()\n\n# enable command history\nL.enable_cmd_history = True\n\n# 3d Lennard-Jones melt\nL.units(\"lj\")\nL.atom_style(\"atomic\")\nL.atom_modify(\"map array\")\n\nL.lattice(\"fcc\", 0.8442)\nL.region(\"box block\", 0, 4, 0, 4, 0, 4)\nL.create_box(1, \"box\")\nL.create_atoms(1, \"box\")\nL.mass(1, 1.0)\n\nL.velocity(\"all create\", 1.44, 87287, \"loop geom\")\n\nL.pair_style(\"lj/cut\", 2.5)\nL.pair_coeff(1, 1, 1.0, 1.0, 2.5)\n\nL.neighbor(0.3, \"bin\")\nL.neigh_modify(\"delay 0 every 20 check no\")\n\nL.fix(\"1 all nve\")\n\nL.run(10)\n\n# write LAMMPS input script with all commands executed so far (including implicit ones)\nL.write_script(\"in.output\")\n\n\n!cat in.output"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/montecarlo/mc.html",
+    "href": "mylammps/python/examples/pylammps/montecarlo/mc.html",
+    "title": "Monte Carlo Relaxation",
+    "section": "",
+    "text": "from __future__ import print_function\n%matplotlib inline\nimport matplotlib.pyplot as plt\nimport random, math"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/montecarlo/mc.html#setup-perfect-system",
+    "href": "mylammps/python/examples/pylammps/montecarlo/mc.html#setup-perfect-system",
+    "title": "Monte Carlo Relaxation",
+    "section": "Setup perfect system",
+    "text": "Setup perfect system\n\nfrom lammps import IPyLammps\n\n\nL = IPyLammps()\n\n\nL.units(\"lj\")\nL.atom_style(\"atomic\")\nL.atom_modify(\"map array sort\", 0, 0.0)\n\nL.dimension(2)\n\nL.lattice(\"hex\", 1.0)\nL.region(\"box block\", 0, 10, 0, 5, -0.5, 0.5)\n\nL.create_box(1, \"box\")\nL.create_atoms(1, \"box\")\nL.mass(1, 1.0)\n\nL.pair_style(\"lj/cut\", 2.5)\nL.pair_coeff(1, 1, 1.0, 1.0, 2.5)\nL.pair_modify(\"shift\", \"yes\")\n\nL.neighbor(0.3, \"bin\")\nL.neigh_modify(\"delay\", 0, \"every\", 1, \"check\", \"yes\")\n\n\nL.image(zoom=1.6)\n\n\nL.run(0);\n\n\nemin = L.eval(\"pe\")\n\n\nL.dump(\"3 all movie 25 movie.mp4 type type zoom 1.6 adiam 1.0\")"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/montecarlo/mc.html#disorder-system",
+    "href": "mylammps/python/examples/pylammps/montecarlo/mc.html#disorder-system",
+    "title": "Monte Carlo Relaxation",
+    "section": "Disorder system",
+    "text": "Disorder system\n\nrandom.seed(27848)\ndeltaperturb = 0.2\n\n\nfor i in range(L.system.natoms):\n    x, y = L.atoms[i].position\n    dx = deltaperturb * random.uniform(-1, 1)\n    dy = deltaperturb * random.uniform(-1, 1)\n    L.atoms[i].position = (x+dx, y+dy)\n\n\nL.run(0);\n\n\nL.image(zoom=1.6)"
+  },
+  {
+    "objectID": "mylammps/python/examples/pylammps/montecarlo/mc.html#minimize-using-monte-carlo-moves",
+    "href": "mylammps/python/examples/pylammps/montecarlo/mc.html#minimize-using-monte-carlo-moves",
+    "title": "Monte Carlo Relaxation",
+    "section": "Minimize using Monte Carlo moves",
+    "text": "Minimize using Monte Carlo moves\n\nestart = L.eval(\"pe\")\nelast = estart\n\n\nnaccept = 0\n\n\nenergies = [estart]\n\n\nniterations = 3000\ndeltamove = 0.1\nkT = 0.05\n\n\nnatoms = L.system.natoms\n\nfor i in range(niterations):\n    iatom = random.randrange(0, natoms)\n    current_atom = L.atoms[iatom]\n    \n    x0, y0 = current_atom.position\n    \n    dx = deltamove * random.uniform(-1, 1)\n    dy = deltamove * random.uniform(-1, 1)\n    \n    current_atom.position = (x0+dx, y0+dy)\n    \n    L.run(1, \"pre no post no\")\n    \n    e = L.eval(\"pe\")\n    energies.append(e)\n    \n    if e &lt;= elast:\n        naccept += 1\n        elast = e\n    elif random.random() &lt;= math.exp(natoms*(elast-e)/kT):\n        naccept += 1\n        elast = e\n    else:\n        current_atom.position = (x0, y0)\n\n\nplt.xlabel('iteration')\nplt.ylabel('potential energy')\nplt.plot(energies)\n\n\nL.eval(\"pe\")\n\n\nemin\n\n\nestart\n\n\nnaccept\n\n\nL.image(zoom=1.6)\n\n\n# close dump file to access it\nL.undump(3)\n\n\nL.video(\"movie.mp4\")"
   }
 ]
