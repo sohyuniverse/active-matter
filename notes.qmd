@@ -88,7 +88,7 @@ Features that are necessary and sufficient for which kinds of complexity and com
 4. Set up [RDSF](https://uob.sharepoint.com/sites/itservices/SitePages/filestores.aspx) data storage
 (Though I checked, OneDrive for Business offers 2TB of storage: [Overview of OneDrive for Business](https://uob.sharepoint.com/sites/systemsupport/SitePages/onedrive-overview.aspx))
 
-5. Brief plan discussion: reading Mary Coe's thesis, then Molecular Simulation book
+5. Brief plan discussion: reading Mary Coe's thesis, then *Understanding Molecular Simulation* book
 
 6. Are there MSci students working on this project?
 ![MSci project proposal](images/ProjectProposalsMsci2024-112.jpg)
