@@ -12,6 +12,8 @@ website:
         href: notes.qmd
       - text: "About"
         href: about.qmd
+      - text: "Tutorial"
+        href: hello.qmd
 
 format:
   html:
