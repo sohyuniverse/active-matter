@@ -97,5 +97,6 @@ Features that are necessary and sufficient for which kinds of complexity and com
 
 #### Apps to install on university MacBook
 
-1. Text Blaze
-2. AdGuard
+1. AdGuard
+2. Text Blaze
+3. Safari extensions: LibKey Nomad
