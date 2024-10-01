@@ -54,7 +54,6 @@ Cue the dramatic music...
 <audio controls>
   <source src="/music/Rocky Balboa - Theme Song.mp3" type="audio/mpeg">
 </audio>
-<br>
 
 **Round 1: flatly vs default**  
 Winner: **flatly**!
