@@ -161,6 +161,7 @@ window.Quarto = {
   <li><a href="#week-3" id="toc-week-3" class="nav-link" data-scroll-target="#week-3">Week 3</a>
   <ul class="collapse">
   <li><a href="#weekly-project-meeting" id="toc-weekly-project-meeting" class="nav-link" data-scroll-target="#weekly-project-meeting">2024/9/30 Weekly project meeting</a></li>
+  <li><a href="#why-are-the-clouds-at-the-same-height-when-i-look-at-the-cloudy-sky" id="toc-why-are-the-clouds-at-the-same-height-when-i-look-at-the-cloudy-sky" class="nav-link" data-scroll-target="#why-are-the-clouds-at-the-same-height-when-i-look-at-the-cloudy-sky">2024/10/2 Why are the clouds at the same height when I look at the cloudy sky?</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -245,9 +246,25 @@ Things that fail to be idealised fall into this dualistic concept: non-equilibri
 1. AdGuard
 2. Text Blaze
 -->
-
-
 </section>
+</section>
+<section id="why-are-the-clouds-at-the-same-height-when-i-look-at-the-cloudy-sky" class="level3">
+<h3 class="anchored" data-anchor-id="why-are-the-clouds-at-the-same-height-when-i-look-at-the-cloudy-sky">2024/10/2 Why are the clouds at the same height when I look at the cloudy sky?</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/View from Brandon Hill.jpg" class="img-fluid figure-img"></p>
+<figcaption>View from Brandon Hill</figcaption>
+</figure>
+</div>
+<p>When we observe clouds appearing at the same height, it’s often due to a phenomenon where a particular layer of the atmosphere has the right conditions for cloud formation. In the troposphere (the lowest layer of the atmosphere), clouds form when the air cools to its dew point, causing water vapour to condense into droplets or ice crystals. This typically happens at specific altitudes where temperature and pressure conditions are ideal for condensation.</p>
+<p>Clouds that seem to form at the same height are likely part of the same atmospheric layer, known as a <em>cloud base</em>. The cloud base marks the altitude at which rising air reaches its dew point. If the conditions across the sky are uniform, we’ll see many clouds forming at roughly the same altitude, giving the illusion of a flat layer of clouds.</p>
+<p>Cloud formation is fundamentally a non-equilibrium process. It results from dynamic atmospheric conditions like rising air currents, changes in temperature and pressure, and the continuous exchange of energy. These factors drive processes such as condensation and evaporation, which are inherently out of equilibrium. This aligns with the behavior of active matter systems, where each particle consumes energy to move, keeping the system perpetually out of equilibrium.</p>
+<p>To create an effective repulsion in our ABP simulations, we consider modifying the wall-fluid interactions to induce a torque that reorients particles away from the surface. One approach might be to introduce an anisotropic interaction potential near the wall. When an ABP approaches the surface, this potential could apply a torque that turns the particle’s propulsion direction away from the wall, effectively reducing its tendency to accumulate there.</p>
+<!-- 
+Implementing this in a molecular dynamics simulation involves adding a torque term to the equations of motion for particles near the wall. By carefully tuning the strength and range of this torque, you can simulate an effective repulsion. This may enable the system to undergo a drying transition, analogous to how insufficient moisture and rising warm air can prevent cloud formation below a certain altitude. Studying how this modification affects the phase behavior of the system could provide insights into the critical properties of the drying transition in active matter.
+-->
+
+
 </section>
 </section>
 </section>

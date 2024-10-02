@@ -102,3 +102,22 @@ Features that are necessary and sufficient for which kinds of complexity and com
 1. AdGuard
 2. Text Blaze
 -->
+
+### 2024/10/2 Why are the clouds at the same height when I look at the cloudy sky?
+
+![View from Brandon Hill](images/View%20from%20Brandon%20Hill.jpg)
+
+When we observe clouds appearing at the same height, it's often due to a phenomenon where a particular layer of the atmosphere has the right conditions for cloud formation. In the troposphere (the lowest layer of the atmosphere), clouds form when the air cools to its dew point, causing water vapour to condense into droplets or ice crystals. This typically happens at specific altitudes where temperature and pressure conditions are ideal for condensation.
+
+Clouds that seem to form at the same height are likely part of the same atmospheric layer, known as a *cloud base*. The cloud base marks the altitude at which rising air reaches its dew point. If the conditions across the sky are uniform, we’ll see many clouds forming at roughly the same altitude, giving the illusion of a flat layer of clouds.
+
+Cloud formation is fundamentally a non-equilibrium process. It results from dynamic atmospheric conditions like rising air currents, changes in temperature and pressure, and the continuous exchange of energy. These factors drive processes such as condensation and evaporation, which are inherently out of equilibrium. This aligns with the behavior of active matter systems, where each particle consumes energy to move, keeping the system perpetually out of equilibrium.
+
+To create an effective repulsion in our ABP simulations, we consider modifying the wall-fluid interactions to induce a torque that reorients particles away from the surface. One approach might be to introduce an anisotropic interaction potential near the wall. When an ABP approaches the surface, this potential could apply a torque that turns the particle's propulsion direction away from the wall, effectively reducing its tendency to accumulate there. 
+
+<!-- 
+Implementing this in a molecular dynamics simulation involves adding a torque term to the equations of motion for particles near the wall. By carefully tuning the strength and range of this torque, you can simulate an effective repulsion. This may enable the system to undergo a drying transition, analogous to how insufficient moisture and rising warm air can prevent cloud formation below a certain altitude. Studying how this modification affects the phase behavior of the system could provide insights into the critical properties of the drying transition in active matter.
+-->
+
+#### I wasn’t sure how to implement this, so I asked ChatGPT.
+
