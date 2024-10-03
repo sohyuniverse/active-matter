@@ -26,6 +26,8 @@ The aggregation effect at a hard wall arises because ABPs become trapped at the 
 
 [ACRC HPC Documentation and User Guides](https://www.acrc.bris.ac.uk/protected/hpc-docs/index.html#)
 
+[Buying and borrowing IT](https://uob.sharepoint.com/sites/itservices/SitePages/buying-it.aspx)
+
 [Introducing HOOMD-blue](https://hoomd-blue.readthedocs.io/en/latest/tutorial/00-Introducing-HOOMD-blue/00-index.html): 
 *HOOMD-blue is a Python package that performs Molecular Dynamics and hard particle Monte Carlo simulations. HOOMD-blue is general and can be used to model nanoparticles, bead-spring polymers, active matter, and many other types of systems.*
 
