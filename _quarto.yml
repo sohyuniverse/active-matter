@@ -10,6 +10,8 @@ website:
         href: index.qmd
       - text: "Notes"
         href: notes.qmd
+      - text: "Reading"
+        href: reading.qmd
       - text: "About"
         href: about.qmd
       - text: "Tutorial"
