@@ -71,3 +71,197 @@ Reading *What is a Complex System?* by James Ladyman and Karoline Wiesner. The p
 It took about two weeks to finish this book. It was an accessible read until I reached chapter 4, which was *Measuring Features of Complex Systems*. In the end, I'm glad that I read it, even though I somehow felt rushed to finish as there were other responsibilities to manage continuously, such as setting up clusters for my university Mac, teaching, office setup, etc. Most importantly, from now on, I am going to focus on reading material that is directly related to my project since it may give the impression to my supervisors that I'm not working hard. Reading a book like this takes a long time, as there are many new terms I had not encountered before.
 
 Anyway, it was a good read. Would I buy a physical copy for myself? Maybe not, but it was a good one.
+
+## 2024/10/4 - *Hydrophobicity Across Length Scales: The Role of Surface Criticality*
+
+By Mary Kathryn Coe
+
+### Q1.
+
+![On page 35, Chapter 2](images/Hydrophobicity%20Across%20Length%20Scales/Screenshot%202024-10-04%20at%2001.12.24.png)
+
+I'm not entirely sure why the surface tension is defined in that way, as it's normally considered force per unit area. So, I asked ChatGPT:
+
+<details>
+<summary>Click to reveal the answer!</summary>
+
+The definition of surface tension in this context is derived from the thermodynamic perspective, which connects surface tension to the grand potential difference between a bulk fluid and a system with an interface. The reasoning follows these steps:
+
+1. **Grand Potential Definition**: The grand potential, $\Omega$, is given by:
+   $$
+   \Omega = U - TS - \mu N
+   $$
+   This expression is crucial for systems where particle number and volume are allowed to fluctuate, such as liquid-vapour interfaces.
+
+2. **Surface Tension from Thermodynamics**: Surface tension, $\gamma$, represents the energy cost per unit area to create an interface. In thermodynamic terms, this corresponds to how much the grand potential increases when introducing an interface between coexisting phases (liquid and vapour).
+
+3. **Difference between Bulk and Interface**: The bulk grand potential, $\Omega_b$, corresponds to a system without an interface (uniform bulk). When an interface is introduced, the grand potential changes, denoted as $\Omega_{\text{ex}}$, the excess grand potential:
+   $$
+   \Omega_{\text{ex}} = \Omega - \Omega_b
+   $$
+
+4. **Surface Tension as Excess Grand Potential per Unit Area**: The surface tension is then defined as the excess grand potential per unit area, $A$, required to form the interface:
+   $$
+   \gamma = \frac{\Omega_{\text{ex}}}{A} = \frac{\Omega - \Omega_b}{A}
+   $$
+   This formulation makes sense because surface tension describes the energetic cost to create a unit area of interface between two phases.
+
+In summary, while surface tension is often discussed in terms of force per unit length in simpler mechanical contexts, in thermodynamics, it is expressed as the excess grand potential per unit area. This ties into how interfaces modify the system's energy in comparison to the bulk. The two definitions are equivalent but applied in different contexts: mechanical (force/length) vs. thermodynamic (energy/area).
+
+</details>
+
+<details>
+<summary>Derivation of equation 2.1.8, 2.1.9, 2.1.10</summary>
+
+$$
+\Omega_b(\mu, V, T) = U - TS - \mu N = -pV
+$$
+
+Taking the differential:
+
+$$
+d\Omega_b = d(U - TS - \mu N)
+$$
+
+Using the first law of thermodynamics:
+
+$$
+dU = TdS - pdV + \mu dN
+$$
+
+Differentiating $TS$:
+
+$$
+d(TS) = TdS + SdT
+$$
+
+Differentiating $\mu N$:
+
+$$
+d(\mu N) = \mu dN + N d\mu
+$$
+
+Substituting these into the differential for $\Omega_b$:
+
+$$
+d\Omega_b = (TdS - pdV + \mu dN) - (TdS + SdT) - (\mu dN + N d\mu)
+$$
+
+Simplifying:
+
+$$
+d\Omega_b = -S_b dT - N_b d\mu - p dV
+$$
+
+For constant volume ($dV = 0$), *the volume is assumed to remain constant because we are focusing on surface effects rather than bulk volume changes.*:
+
+$$
+d\Omega_b = -S_b dT - N_b d\mu
+$$
+
+Now for equation (2.1.6):
+
+$$
+\Omega(\mu, V, T) = U - TS - \mu N = -pV + \gamma A
+$$
+
+Taking the differential:
+
+$$
+d\Omega = d(U - TS - \mu N + \gamma A)
+$$
+
+Substituting differentials:
+
+$$
+d\Omega = TdS - pdV + \mu dN - (TdS + SdT) - (\mu dN + N d\mu) + \gamma dA + A d\gamma
+$$
+
+Simplifying:
+
+$$
+d\Omega = -S dT - N d\mu + \gamma dA
+$$
+
+Now subtract:
+
+$$
+d\Omega - d\Omega_b = (-S dT - N d\mu + \gamma dA) - (-S_b dT - N_b d\mu)
+$$
+
+Simplifying:
+
+$$
+d\Omega - d\Omega_b = -(S - S_b)dT - (N - N_b)d\mu + \gamma dA
+$$
+
+This is equation (2.1.8).
+
+---
+
+From equation (2.1.7):
+
+$$
+\gamma = \frac{\Omega_{\text{ex}}}{A} = \frac{\Omega - \Omega_b}{A}
+$$
+
+Taking the differential:
+
+$$
+d\gamma = \frac{d\Omega_{\text{ex}}}{A} = \frac{d\Omega - d\Omega_b}{A}
+$$
+
+Now, use the result from equation (2.1.8):
+
+$$
+d\Omega - d\Omega_b = -(S - S_b) dT - (N - N_b) d\mu + \gamma dA
+$$
+
+So:
+
+$$
+d\Omega_{\text{ex}} = -s_{\text{ex}} A dT - \Gamma d\mu + \gamma dA
+$$
+
+where:
+
+- $s_{\text{ex}} = \frac{S - S_b}{A}$ is the surface excess entropy per unit area,
+- $\Gamma = N - N_b$ is the excess number of particles (adsorption).
+
+Dividing through by $A$, we get:
+
+$$
+\frac{d\Omega_{\text{ex}}}{A} = -s_{\text{ex}} dT - \frac{\Gamma}{A} d\mu + \gamma \frac{dA}{A}
+$$
+
+Now, using the fact that $\gamma \frac{dA}{A}$ is small for constant area, we can ignore this term, giving:
+
+$$
+s_{\text{ex}} dT + \frac{\Gamma}{A} d\mu + d\gamma = 0
+$$
+
+This is equation (2.1.9).
+
+---
+
+Rearrange equation (2.1.9):
+
+$$
+\frac{\Gamma}{A} d\mu = -s_{\text{ex}} dT - d\gamma
+$$
+
+At constant temperature ($dT = 0$), this simplifies to:
+
+$$
+\frac{\Gamma}{A} d\mu = -d\gamma
+$$
+
+Now, dividing both sides by $d\mu$, we get:
+
+$$
+\frac{\Gamma}{A} = -\left(\frac{\partial \gamma}{\partial \mu}\right)_T
+$$
+
+This is equation (2.1.10).
+
+</details>

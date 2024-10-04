@@ -155,6 +155,10 @@ window.Quarto = {
   <li><a href="#list-of-my-reading-during-phd" id="toc-list-of-my-reading-during-phd" class="nav-link active" data-scroll-target="#list-of-my-reading-during-phd">List of my reading during PhD</a>
   <ul class="collapse">
   <li><a href="#what-is-a-complex-system" id="toc-what-is-a-complex-system" class="nav-link" data-scroll-target="#what-is-a-complex-system">2024/9/21 - 10/3 <em>What is a Complex System?</em></a></li>
+  <li><a href="#hydrophobicity-across-length-scales-the-role-of-surface-criticality" id="toc-hydrophobicity-across-length-scales-the-role-of-surface-criticality" class="nav-link" data-scroll-target="#hydrophobicity-across-length-scales-the-role-of-surface-criticality">2024/10/4 - <em>Hydrophobicity Across Length Scales: The Role of Surface Criticality</em></a>
+  <ul class="collapse">
+  <li><a href="#q1." id="toc-q1." class="nav-link" data-scroll-target="#q1.">Q1.</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -205,8 +209,147 @@ Things that fail to be idealised fall into this dualistic concept: non-equilibri
 <p>2024/10/3</p>
 <p>It took about two weeks to finish this book. It was an accessible read until I reached chapter 4, which was <em>Measuring Features of Complex Systems</em>. In the end, I’m glad that I read it, even though I somehow felt rushed to finish as there were other responsibilities to manage continuously, such as setting up clusters for my university Mac, teaching, office setup, etc. Most importantly, from now on, I am going to focus on reading material that is directly related to my project since it may give the impression to my supervisors that I’m not working hard. Reading a book like this takes a long time, as there are many new terms I had not encountered before.</p>
 <p>Anyway, it was a good read. Would I buy a physical copy for myself? Maybe not, but it was a good one.</p>
+</section>
+<section id="hydrophobicity-across-length-scales-the-role-of-surface-criticality" class="level2">
+<h2 class="anchored" data-anchor-id="hydrophobicity-across-length-scales-the-role-of-surface-criticality">2024/10/4 - <em>Hydrophobicity Across Length Scales: The Role of Surface Criticality</em></h2>
+<p>By Mary Kathryn Coe</p>
+<section id="q1." class="level3">
+<h3 class="anchored" data-anchor-id="q1.">Q1.</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Hydrophobicity Across Length Scales/Screenshot 2024-10-04 at 01.12.24.png" class="img-fluid figure-img"></p>
+<figcaption>On page 35, Chapter 2</figcaption>
+</figure>
+</div>
+<p>I’m not entirely sure why the surface tension is defined in that way, as it’s normally considered force per unit area. So, I asked ChatGPT:</p>
+<details>
+<summary>
+Click to reveal the answer!
+</summary>
+<p>The definition of surface tension in this context is derived from the thermodynamic perspective, which connects surface tension to the grand potential difference between a bulk fluid and a system with an interface. The reasoning follows these steps:</p>
+<ol type="1">
+<li><p><strong>Grand Potential Definition</strong>: The grand potential, <span class="math inline">\(\Omega\)</span>, is given by: <span class="math display">\[
+\Omega = U - TS - \mu N
+\]</span> This expression is crucial for systems where particle number and volume are allowed to fluctuate, such as liquid-vapour interfaces.</p></li>
+<li><p><strong>Surface Tension from Thermodynamics</strong>: Surface tension, <span class="math inline">\(\gamma\)</span>, represents the energy cost per unit area to create an interface. In thermodynamic terms, this corresponds to how much the grand potential increases when introducing an interface between coexisting phases (liquid and vapour).</p></li>
+<li><p><strong>Difference between Bulk and Interface</strong>: The bulk grand potential, <span class="math inline">\(\Omega_b\)</span>, corresponds to a system without an interface (uniform bulk). When an interface is introduced, the grand potential changes, denoted as <span class="math inline">\(\Omega_{\text{ex}}\)</span>, the excess grand potential: <span class="math display">\[
+\Omega_{\text{ex}} = \Omega - \Omega_b
+\]</span></p></li>
+<li><p><strong>Surface Tension as Excess Grand Potential per Unit Area</strong>: The surface tension is then defined as the excess grand potential per unit area, <span class="math inline">\(A\)</span>, required to form the interface: <span class="math display">\[
+\gamma = \frac{\Omega_{\text{ex}}}{A} = \frac{\Omega - \Omega_b}{A}
+\]</span> This formulation makes sense because surface tension describes the energetic cost to create a unit area of interface between two phases.</p></li>
+</ol>
+<p>In summary, while surface tension is often discussed in terms of force per unit length in simpler mechanical contexts, in thermodynamics, it is expressed as the excess grand potential per unit area. This ties into how interfaces modify the system’s energy in comparison to the bulk. The two definitions are equivalent but applied in different contexts: mechanical (force/length) vs.&nbsp;thermodynamic (energy/area).</p>
+</details>
+<details>
+<summary>
+Derivation of equation 2.1.8, 2.1.9, 2.1.10
+</summary>
+<p><span class="math display">\[
+\Omega_b(\mu, V, T) = U - TS - \mu N = -pV
+\]</span></p>
+<p>Taking the differential:</p>
+<p><span class="math display">\[
+d\Omega_b = d(U - TS - \mu N)
+\]</span></p>
+<p>Using the first law of thermodynamics:</p>
+<p><span class="math display">\[
+dU = TdS - pdV + \mu dN
+\]</span></p>
+<p>Differentiating <span class="math inline">\(TS\)</span>:</p>
+<p><span class="math display">\[
+d(TS) = TdS + SdT
+\]</span></p>
+<p>Differentiating <span class="math inline">\(\mu N\)</span>:</p>
+<p><span class="math display">\[
+d(\mu N) = \mu dN + N d\mu
+\]</span></p>
+<p>Substituting these into the differential for <span class="math inline">\(\Omega_b\)</span>:</p>
+<p><span class="math display">\[
+d\Omega_b = (TdS - pdV + \mu dN) - (TdS + SdT) - (\mu dN + N d\mu)
+\]</span></p>
+<p>Simplifying:</p>
+<p><span class="math display">\[
+d\Omega_b = -S_b dT - N_b d\mu - p dV
+\]</span></p>
+<p>For constant volume (<span class="math inline">\(dV = 0\)</span>), <em>the volume is assumed to remain constant because we are focusing on surface effects rather than bulk volume changes.</em>:</p>
+<p><span class="math display">\[
+d\Omega_b = -S_b dT - N_b d\mu
+\]</span></p>
+<p>Now for equation (2.1.6):</p>
+<p><span class="math display">\[
+\Omega(\mu, V, T) = U - TS - \mu N = -pV + \gamma A
+\]</span></p>
+<p>Taking the differential:</p>
+<p><span class="math display">\[
+d\Omega = d(U - TS - \mu N + \gamma A)
+\]</span></p>
+<p>Substituting differentials:</p>
+<p><span class="math display">\[
+d\Omega = TdS - pdV + \mu dN - (TdS + SdT) - (\mu dN + N d\mu) + \gamma dA + A d\gamma
+\]</span></p>
+<p>Simplifying:</p>
+<p><span class="math display">\[
+d\Omega = -S dT - N d\mu + \gamma dA
+\]</span></p>
+<p>Now subtract:</p>
+<p><span class="math display">\[
+d\Omega - d\Omega_b = (-S dT - N d\mu + \gamma dA) - (-S_b dT - N_b d\mu)
+\]</span></p>
+<p>Simplifying:</p>
+<p><span class="math display">\[
+d\Omega - d\Omega_b = -(S - S_b)dT - (N - N_b)d\mu + \gamma dA
+\]</span></p>
+<p>This is equation (2.1.8).</p>
+<hr>
+<p>From equation (2.1.7):</p>
+<p><span class="math display">\[
+\gamma = \frac{\Omega_{\text{ex}}}{A} = \frac{\Omega - \Omega_b}{A}
+\]</span></p>
+<p>Taking the differential:</p>
+<p><span class="math display">\[
+d\gamma = \frac{d\Omega_{\text{ex}}}{A} = \frac{d\Omega - d\Omega_b}{A}
+\]</span></p>
+<p>Now, use the result from equation (2.1.8):</p>
+<p><span class="math display">\[
+d\Omega - d\Omega_b = -(S - S_b) dT - (N - N_b) d\mu + \gamma dA
+\]</span></p>
+<p>So:</p>
+<p><span class="math display">\[
+d\Omega_{\text{ex}} = -s_{\text{ex}} A dT - \Gamma d\mu + \gamma dA
+\]</span></p>
+<p>where:</p>
+<ul>
+<li><span class="math inline">\(s_{\text{ex}} = \frac{S - S_b}{A}\)</span> is the surface excess entropy per unit area,</li>
+<li><span class="math inline">\(\Gamma = N - N_b\)</span> is the excess number of particles (adsorption).</li>
+</ul>
+<p>Dividing through by <span class="math inline">\(A\)</span>, we get:</p>
+<p><span class="math display">\[
+\frac{d\Omega_{\text{ex}}}{A} = -s_{\text{ex}} dT - \frac{\Gamma}{A} d\mu + \gamma \frac{dA}{A}
+\]</span></p>
+<p>Now, using the fact that <span class="math inline">\(\gamma \frac{dA}{A}\)</span> is small for constant area, we can ignore this term, giving:</p>
+<p><span class="math display">\[
+s_{\text{ex}} dT + \frac{\Gamma}{A} d\mu + d\gamma = 0
+\]</span></p>
+<p>This is equation (2.1.9).</p>
+<hr>
+<p>Rearrange equation (2.1.9):</p>
+<p><span class="math display">\[
+\frac{\Gamma}{A} d\mu = -s_{\text{ex}} dT - d\gamma
+\]</span></p>
+<p>At constant temperature (<span class="math inline">\(dT = 0\)</span>), this simplifies to:</p>
+<p><span class="math display">\[
+\frac{\Gamma}{A} d\mu = -d\gamma
+\]</span></p>
+<p>Now, dividing both sides by <span class="math inline">\(d\mu\)</span>, we get:</p>
+<p><span class="math display">\[
+\frac{\Gamma}{A} = -\left(\frac{\partial \gamma}{\partial \mu}\right)_T
+\]</span></p>
+<p>This is equation (2.1.10).</p>
+</details>
 
 
+</section>
 </section>
 </section>
 

@@ -67,35 +67,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -179,15 +150,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="week-2">Week 2</h2>
 <section id="things-i-did-so-far" class="level3">
 <h3 class="anchored" data-anchor-id="things-i-did-so-far">2024/9/27 Things I did so far</h3>
-<ol type="1">
-<li><p>Busy weeks due to starting three teaching modules: <a href="onenote:Overview.one#Links&amp;section-id=%7BD4B227EF-F9FF-864E-A042-9B9A7C2E06E3%7D&amp;page-id=%7BB7874627-D52D-5043-9E1A-2067E68FAD02%7D&amp;object-id=%7B537C7D03-2CEB-3142-8063-0EF93BF5A5E9%7D&amp;25&amp;base-path=https://uob-my.sharepoint.com/personal/sp13328_bristol_ac_uk/Documents/PhD%20in%20Active%20Matter">Weekly update of my TSR (Teaching Support Roles)</a>. Looking back, I wish I could have completed more reading, as there isn’t much to talk about in terms of active matter research for the next project meeting on Monday.</p></li>
-<li><p>Reading <em>What is a Complex System?</em> by James Ladyman and Karoline Wiesner. The purpose of reading is to understand how systems out of thermodynamic equilibrium (a feature of complex systems) relate to a wide range of concepts associated with complexity.</p>
-<p>• There was a video that helped clarify what is meant by a Markov chain and a stochastic process being stationary: <a href="https://www.youtube.com/watch?v=i3AkTO9HLXo&amp;list=PLM8wYQRetTxBkdvBtz-gw8b9lcVkdXQKV">Markov Chains Clearly Explained! Part - 1</a>. His other videos are helpful as well. For example, when I saw <span class="math inline">\(P_{ij}^{(n)} = A_{ij}^n\)</span> from the <em>n-Step Transition Matrix</em> video (Part 3), it was quite surprising. However, the Part 5 video on hidden Markov models wasn’t very helpful, but reading the appendix in the book was sufficient.</p>
-<p>• What I’ve felt from reading this book (currently at p.90) is that it presents a lot of different ideas and has interesting discussions on the history of science, but I only seem to get excited when it starts mentioning the brain. I’m not sure if I’m necessarily interested in quantifying complexity. From the Apple notes on 28/9/2024:</p>
-<p><em>As I’m reading through </em>What is a Complex System?<em>, it seems that the description of a complex system arises as we have more representations at different scales of analysis. The concept of ‘complexity’ was destined to arise as the scientific era evolved.<br>
-Non-equilibrium systems arise because we define what systems are in thermodynamic equilibrium, which are idealisations.<br>
-Things that fail to be idealised fall into this dualistic concept: non-equilibrium.</em></p></li>
-</ol>
+<p>Busy weeks due to starting three teaching modules: <a href="onenote:Overview.one#Links&amp;section-id=%7BD4B227EF-F9FF-864E-A042-9B9A7C2E06E3%7D&amp;page-id=%7BB7874627-D52D-5043-9E1A-2067E68FAD02%7D&amp;object-id=%7B537C7D03-2CEB-3142-8063-0EF93BF5A5E9%7D&amp;25&amp;base-path=https://uob-my.sharepoint.com/personal/sp13328_bristol_ac_uk/Documents/PhD%20in%20Active%20Matter">Weekly update of my TSR (Teaching Support Roles)</a>. Looking back, I wish I could have completed more reading, as there isn’t much to talk about in terms of active matter research for the next project meeting on Monday.</p>
 </section>
 </section>
 <section id="week-3" class="level2">
