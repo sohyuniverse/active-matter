@@ -1,4 +1,10 @@
-# List of My Reading
+---
+title: List of My Reading
+toc: true
+bibliography: quarto.bib
+reference-location: margin
+citation-location: margin
+---
 
 ## 2024/9/21 - 10/3 *What is a Complex System?*
 
@@ -6,7 +12,7 @@ By James Ladyman and Karoline Wiesner
 
 My final-year MSci project involved the study of a complex system, foreign exchange markets. Each individual currency was treated as a spin in the Ising model, and by applying E.T. Jaynes's principle of maximum entropy, we discovered the structure of interactions between these entities. Remarkably, this simple model of magnetism can also describe the phase transitions of liquid-gas systems, as they fall into the same universality class. This model has even been extended to study how critical our brain is, giving rise to the field of the critical brain hypothesis. Therefore, many ideas during my research project were derived from neuroscience papers. The financial market and the brain: both are complex systems.
 
-About a year ago, I read a paper published by James Ladyman, a professor of philosophy of science at Bristol, titled 'What is a Complex System?' (Ladyman et al., 2013). As I started my PhD at Bristol, my second supervisor, Francesco, mentioned that he also published a book about complexity. It became clear to me that I should read this book.
+About a year ago, I read a paper published by James Ladyman, a professor of philosophy of science at Bristol, titled 'What is a Complex System?' [@ladyman2013complex]. As I started my PhD at Bristol, my second supervisor, Francesco, mentioned that he also published a book about complexity. It became clear to me that I should read this book.
 
 Chapter 1 presents The Truisms of Complexity Science as follows: 
 

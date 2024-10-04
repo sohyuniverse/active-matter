@@ -90,7 +90,7 @@ colorbar to each axes:^[See the [Matplotlib Gallery](https://matplotlib.org/stab
 
 ```{python}
 #| code-fold: true
-#| column: screen-inset
+# #| column: screen-inset
 import matplotlib.pyplot as plt
 import numpy as np
 
