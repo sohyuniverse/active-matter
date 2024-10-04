@@ -1,35 +1,12 @@
 ---
-title: "Quarto Tutorial"
+title: Quarto Computations
 format:
   html:
     code-fold: true
-    code-tools: true
 jupyter: python3
 ---
 
-# [Quarto Basics](https://quarto.org/docs/get-started/hello/vscode.html)
-
-For a demonstration of a line plot on a polar axis, see @fig-polar.
-
-```{python}
-#| label: fig-polar
-#| fig-cap: "A line plot on a polar axis"
-
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(
-  subplot_kw = {'projection': 'polar'} 
-)
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-
-# [Quarto Computations](https://quarto.org/docs/get-started/computations/vscode.html)
+[Quarto Computations](https://quarto.org/docs/get-started/computations/vscode.html)
 
 ## NumPy
 
@@ -44,6 +21,8 @@ a
 ```{python}
 #| label: fig-limits
 #| fig-cap: "Errorbar limit selector"
+
+import matplotlib.pyplot as plt
 
 fig = plt.figure()
 # fig.set_size_inches(12, 7)
@@ -74,7 +53,10 @@ plt.show(fig)
 #|   - "Gapminder: 1957"
 #|   - "Gapminder: 2007"
 #| layout-ncol: 2
+"""
+This allows our figure display to span out beyond the normal body text column.
 #| column: page
+"""
 
 import plotly.express as px
 import plotly.io as pio
@@ -91,6 +73,3 @@ def gapminder_plot(year):
 gapminder_plot(1957)
 gapminder_plot(2007)
 ```
-
-# [Quarto Document](https://quarto.org/docs/get-started/authoring/vscode.html)
-

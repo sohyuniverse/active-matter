@@ -3,19 +3,24 @@ project:
   output-dir: docs
 
 website:
-  title: "Bristol Active Matter Group"
-  navbar:
-    left:
+  sidebar:
+    style: "docked"
+    search: true
+    title: "Bristol Active Matter Group"
+    contents:
       - text: "Home"
         href: index.qmd
-      - text: "Notes"
-        href: notes.qmd
-      - text: "Reading"
-        href: reading.qmd
+      - section: "Project Notes"
+        contents: 
+          - notes.qmd
+          - reading.qmd
+          - section: "Quarto Tutorial"
+            contents:
+            - tutorial-basics.qmd
+            - tutorial-computations.qmd
+            - tutorial-document.qmd
       - text: "About"
         href: about.qmd
-      - text: "Tutorial"
-        href: hello.qmd
 
 format:
   html:
