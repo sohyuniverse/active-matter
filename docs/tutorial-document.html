@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<head>
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
 
-<meta charset="utf-8" />
-<meta name="generator" content="quarto-1.5.57" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-
-<meta name="author" content="Sohyun Park" />
-<meta name="dcterms.date" content="2024-10-04" />
+<meta name="author" content="Sohyun Park">
+<meta name="dcterms.date" content="2024-10-04">
 
 <title>Quarto Document</title>
 <style>
@@ -80,7 +78,23 @@ div.csl-indent {
   margin-left: 2em;
 }</style>
 
-<!-- htmldependencies:E3FAD763 -->
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -109,7 +123,7 @@ div.csl-indent {
   }
 }</script>
 
-  <script defer="" src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
   <script>document.addEventListener("DOMContentLoaded", function () {
  var mathElements = document.getElementsByClassName("math");
  var macros = [];
@@ -124,7 +138,7 @@ div.csl-indent {
    });
 }}});
   </script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -155,22 +169,17 @@ window.Quarto = {
 
 </head>
 
-<body>
+<body class="nav-sidebar docked slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn"
-      data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" 
-      aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation"
-      onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <h1 class="quarto-secondary-nav-title no-breadcrumbs"></h1>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" role="link"
-        aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation"
-        onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./theme.html">Website Design</a></li><li class="breadcrumb-item"><a href="./tutorial-basics.html">Quarto Tutorial</a></li><li class="breadcrumb-item"><a href="./tutorial-document.html">Quarto Document</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -184,9 +193,7 @@ window.Quarto = {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="/">
-      Bristol Active Matter Group
-      </a> 
+      <a href="./">Bristol Active Matter Group</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -198,13 +205,13 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/index.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1"  role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Project Notes</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -213,13 +220,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/notes.html" class="sidebar-item-text sidebar-link">
+  <a href="./notes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Weekly Notes</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/reading.html" class="sidebar-item-text sidebar-link">
+  <a href="./reading.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">List of My Reading</span></a>
   </div>
 </li>
@@ -227,7 +234,7 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2"  role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Website Design</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -236,13 +243,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/theme.html" class="sidebar-item-text sidebar-link">
+  <a href="./theme.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Theme Showdown</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3"  role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
  <span class="menu-text">Quarto Tutorial</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -251,19 +258,19 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/tutorial-basics.html" class="sidebar-item-text sidebar-link">
+  <a href="./tutorial-basics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quarto Basics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/tutorial-computations.html" class="sidebar-item-text sidebar-link">
+  <a href="./tutorial-computations.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quarto Computations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/tutorial-document.html" class="sidebar-item-text sidebar-link active">
+  <a href="./tutorial-document.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Quarto Document</span></a>
   </div>
 </li>
@@ -273,22 +280,42 @@ window.Quarto = {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/about.html" class="sidebar-item-text sidebar-link">
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" ></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <div id="quarto-toc-target"></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#sections" id="toc-sections" class="nav-link active" data-scroll-target="#sections"><span class="header-section-number">1</span> Sections</a>
+  <ul class="collapse">
+  <li><a href="#colors" id="toc-colors" class="nav-link" data-scroll-target="#colors"><span class="header-section-number">1.1</span> Colors</a></li>
+  <li><a href="#shapes" id="toc-shapes" class="nav-link" data-scroll-target="#shapes"><span class="header-section-number">1.2</span> Shapes</a></li>
+  <li><a href="#textures" id="toc-textures" class="nav-link" data-scroll-target="#textures"><span class="header-section-number">1.3</span> Textures</a></li>
+  <li><a href="#equations" id="toc-equations" class="nav-link" data-scroll-target="#equations"><span class="header-section-number">1.4</span> Equations</a></li>
+  </ul></li>
+  <li><a href="#citations" id="toc-citations" class="nav-link" data-scroll-target="#citations"><span class="header-section-number">2</span> Citations</a></li>
+  <li><a href="#cross-references" id="toc-cross-references" class="nav-link" data-scroll-target="#cross-references"><span class="header-section-number">3</span> Cross References</a>
+  <ul class="collapse">
+  <li><a href="#sec-plot" id="toc-sec-plot" class="nav-link" data-scroll-target="#sec-plot"><span class="header-section-number">3.1</span> Plot</a></li>
+  <li><a href="#sec-equation" id="toc-sec-equation" class="nav-link" data-scroll-target="#sec-equation"><span class="header-section-number">3.2</span> Equation</a></li>
+  </ul></li>
+  <li><a href="#callouts" id="toc-callouts" class="nav-link" data-scroll-target="#callouts"><span class="header-section-number">4</span> Callouts</a></li>
+  <li><a href="#placing-colorbars" id="toc-placing-colorbars" class="nav-link" data-scroll-target="#placing-colorbars"><span class="header-section-number">5</span> Placing Colorbars</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="tutorial-document.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="tutorial-document.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./theme.html">Website Design</a></li><li class="breadcrumb-item"><a href="./tutorial-basics.html">Quarto Tutorial</a></li><li class="breadcrumb-item"><a href="./tutorial-document.html">Quarto Document</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Quarto Document</h1>
 </div>
@@ -318,32 +345,12 @@ window.Quarto = {
 
 </header>
 
-<nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#sections" id="toc-sections"><span class="header-section-number">1</span> Sections</a>
-  <ul>
-  <li><a href="#colors" id="toc-colors"><span class="header-section-number">1.1</span> Colors</a></li>
-  <li><a href="#shapes" id="toc-shapes"><span class="header-section-number">1.2</span> Shapes</a></li>
-  <li><a href="#textures" id="toc-textures"><span class="header-section-number">1.3</span> Textures</a></li>
-  <li><a href="#equations" id="toc-equations"><span class="header-section-number">1.4</span> Equations</a></li>
-  </ul></li>
-  <li><a href="#citations" id="toc-citations"><span class="header-section-number">2</span> Citations</a></li>
-  <li><a href="#cross-references" id="toc-cross-references"><span class="header-section-number">3</span> Cross References</a>
-  <ul>
-  <li><a href="#sec-plot" id="toc-sec-plot"><span class="header-section-number">3.1</span> Plot</a></li>
-  <li><a href="#sec-equation" id="toc-sec-equation"><span class="header-section-number">3.2</span> Equation</a></li>
-  </ul></li>
-  <li><a href="#callouts" id="toc-callouts"><span class="header-section-number">4</span> Callouts</a></li>
-  <li><a href="#placing-colorbars" id="toc-placing-colorbars"><span class="header-section-number">5</span> Placing Colorbars</a></li>
-  </ul>
-</nav>
+
 <p><a href="https://quarto.org/docs/get-started/authoring/vscode.html">Quarto Document</a></p>
 <section id="sections" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Sections</h1>
 <section id="colors" class="level2" data-number="1.1">
-<h2 data-number="1.1"><span class="header-section-number">1.1</span> Colors</h2>
+<h2 data-number="1.1" class="anchored" data-anchor-id="colors"><span class="header-section-number">1.1</span> Colors</h2>
 <ul>
 <li>Red</li>
 <li>Green</li>
@@ -351,7 +358,7 @@ window.Quarto = {
 </ul>
 </section>
 <section id="shapes" class="level2" data-number="1.2">
-<h2 data-number="1.2"><span class="header-section-number">1.2</span> Shapes</h2>
+<h2 data-number="1.2" class="anchored" data-anchor-id="shapes"><span class="header-section-number">1.2</span> Shapes</h2>
 <ul>
 <li>Square</li>
 <li>Circle</li>
@@ -359,7 +366,7 @@ window.Quarto = {
 </ul>
 </section>
 <section id="textures" class="level2" data-number="1.3">
-<h2 data-number="1.3"><span class="header-section-number">1.3</span> Textures</h2>
+<h2 data-number="1.3" class="anchored" data-anchor-id="textures"><span class="header-section-number">1.3</span> Textures</h2>
 <ul>
 <li>Smooth</li>
 <li>Bumpy</li>
@@ -367,36 +374,38 @@ window.Quarto = {
 </ul>
 </section>
 <section id="equations" class="level2" data-number="1.4">
-<h2 data-number="1.4"><span class="header-section-number">1.4</span> Equations</h2>
+<h2 data-number="1.4" class="anchored" data-anchor-id="equations"><span class="header-section-number">1.4</span> Equations</h2>
 <p>Einstein’s theory of special relatively that expresses the equivalence of mass and energy:</p>
 <p><span class="math inline">E = mc^{2}</span></p>
 </section>
 </section>
-<section id="citations" class="level1" data-number="2">
+<section id="citations" class="level1 page-columns page-full" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Citations</h1>
 <p>Mary says <em>Hydrophobicity is ubiquitous. Many aquatic and semi-aquatic plants, such as the lotus, utilise hydrophobicity in their self-cleaning mechanisms which reduce their chances of infection from harmful pathogens present in the bodies of water in which they grow [2]. Butterflies have been found to utilise hydrophobicity to ensure that rain droplets which fall on their wings roll off away from their bodies [3]. Proteins have been found to utilise localised hydrophobicity to evacuate surrounding water and enable ligand binding [4]. Detergents utilise the hydrophobicity driven self assembly of amphiphilic molecules into micelle structures to remove grease from clothes [5]. The influence of hydrophobicity is felt in every aspect of our lives.</em> <span class="citation" data-cites="coe_hydrophobicity_nodate">(<a href="#ref-coe_hydrophobicity_nodate" role="doc-biblioref">Coe, n.d.</a>)</span>.</p>
-</section>
+<div class="no-row-height column-margin column-container"><div id="ref-coe_hydrophobicity_nodate" class="csl-entry" role="listitem">
+Coe, Mary Kathryn. n.d. <span>“Hydrophobicity <span>Across</span> <span>Length</span> <span>Scales</span>: <span>The</span> <span>Role</span> of <span>Surface</span> <span>Criticality</span>.”</span>
+</div></div></section>
 <section id="cross-references" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> Cross References</h1>
-<p>See <a href="#fig-simple" class="quarto-xref">Figure 1</a> in <a href="#sec-plot" class="quarto-xref">Section 3.1</a> for a demonstration of a simple plot.</p>
-<p>See <a href="#eq-stddev" class="quarto-xref">Equation 1</a> to better understand standard deviation.</p>
+<p>See <a href="#fig-simple" class="quarto-xref">Figure&nbsp;1</a> in <a href="#sec-plot" class="quarto-xref">Section&nbsp;3.1</a> for a demonstration of a simple plot.</p>
+<p>See <a href="#eq-stddev" class="quarto-xref">Equation&nbsp;1</a> to better understand standard deviation.</p>
 <section id="sec-plot" class="level2" data-number="3.1">
-<h2 data-number="3.1"><span class="header-section-number">3.1</span> Plot</h2>
+<h2 data-number="3.1" class="anchored" data-anchor-id="sec-plot"><span class="header-section-number">3.1</span> Plot</h2>
 <div id="cell-fig-simple" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python cell-code"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">1</span>,<span class="dv">23</span>,<span class="dv">2</span>,<span class="dv">4</span>])</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
-<div id="fig-simple" class="quarto-float quarto-figure quarto-figure-center">
-<figure class="quarto-float quarto-float-fig">
+<div id="fig-simple" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-simple-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="tutorial-document_files/figure-html/fig-simple-output-1.png" width="566" height="411" />
+<img src="tutorial-document_files/figure-html/fig-simple-output-1.png" width="566" height="411" class="figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-simple-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure 1: Simple Plot
+Figure&nbsp;1: Simple Plot
 </figcaption>
 </figure>
 </div>
@@ -404,7 +413,7 @@ Figure 1: Simple Plot
 </div>
 </section>
 <section id="sec-equation" class="level2" data-number="3.2">
-<h2 data-number="3.2"><span class="header-section-number">3.2</span> Equation</h2>
+<h2 data-number="3.2" class="anchored" data-anchor-id="sec-equation"><span class="header-section-number">3.2</span> Equation</h2>
 <p><span id="eq-stddev"><span class="math display">
 s = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}
 \tag{1}</span></span></p>
@@ -415,7 +424,7 @@ s = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class='callout-icon'></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Note
@@ -426,19 +435,19 @@ Note
 </div>
 </div>
 </section>
-<section id="placing-colorbars" class="level1" data-number="5">
+<section id="placing-colorbars" class="level1 page-columns page-full" data-number="5">
 <h1 data-number="5"><span class="header-section-number">5</span> Placing Colorbars</h1>
 <p>Colorbars indicate the quantitative extent of image data. Placing in a figure is non-trivial because room needs to be made for them. The simplest case is just attaching a colorbar to each axes:<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
-<div id="75b1778e" class="cell" data-execution_count="2">
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;See the <a href="https://matplotlib.org/stable/gallery/subplots_axes_and_figures/colorbar_placement.html">Matplotlib Gallery</a> to explore colorbars further</p></div></div><div id="0f0bab39" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python cell-code"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># #| column: screen-inset</span></span>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># #| column: screen-inset</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">2</span>, <span class="dv">2</span>)</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>fig.set_size_inches(<span class="dv">20</span>, <span class="dv">8</span>)</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>cmaps <span class="op">=</span> [<span class="st">&#39;RdBu_r&#39;</span>, <span class="st">&#39;viridis&#39;</span>]</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>cmaps <span class="op">=</span> [<span class="st">'RdBu_r'</span>, <span class="st">'viridis'</span>]</span>
 <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">2</span>):</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> row <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">2</span>):</span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>        ax <span class="op">=</span> axs[row, col]</span>
@@ -447,37 +456,24 @@ Note
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>          cmap<span class="op">=</span>cmaps[col]</span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>        )</span>
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>        fig.colorbar(pcm, ax<span class="op">=</span>ax)</span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
-<figure>
-<p><img src="tutorial-document_files/figure-html/cell-3-output-1.png" width="1497" height="638" /></p>
+<figure class="figure">
+<p><img src="tutorial-document_files/figure-html/cell-3-output-1.png" width="1497" height="638" class="figure-img"></p>
 </figure>
 </div>
 </div>
 </div>
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar-title">Bristol Active Matter Group</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar-title">Quarto Document</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-next">About</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-prev">Quarto Computations</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/index.htmlHome">Home</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:quarto-sidebar-section-1">Project Notes</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/notes.htmlWeekly-Notes">Weekly Notes</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/reading.htmlList-of-My-Reading">List of My Reading</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:quarto-sidebar-section-2">Website Design</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/theme.htmlTheme-Showdown">Theme Showdown</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:quarto-sidebar-section-3">Quarto Tutorial</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/tutorial-basics.htmlQuarto-Basics">Quarto Basics</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/tutorial-computations.htmlQuarto-Computations">Quarto Computations</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/tutorial-document.htmlQuarto-Document">Quarto Document</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/about.htmlAbout">About</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-breadcrumbs-Website-Design">Website Design</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-breadcrumbs-Quarto-Tutorial">Quarto Tutorial</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-breadcrumbs-Quarto-Document">Quarto Document</span></p>
-</div>
-<div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metatitle">Quarto Document</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercardtitle">Quarto Document</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardtitle">Quarto Document</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercarddesc"></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardddesc"></span></p>
-</div>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-coe_hydrophobicity_nodate" class="csl-entry" role="listitem">
-Coe, Mary Kathryn. n.d. <span>“Hydrophobicity <span>Across</span> <span>Length</span> <span>Scales</span>: <span>The</span> <span>Role</span> of <span>Surface</span> <span>Criticality</span>.”</span>
-</div>
-</div>
-</section>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1"><p>See the <a href="https://matplotlib.org/stable/gallery/subplots_axes_and_figures/colorbar_placement.html">Matplotlib Gallery</a> to explore colorbars further<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
+
+
+
 </section>
 
+
 </main> <!-- /main -->
-<script id = "quarto-html-after-body" type="application/javascript">
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -899,6 +895,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 </div> <!-- /content -->
 
-</body>
 
-</html>
+
+
+</body></html>

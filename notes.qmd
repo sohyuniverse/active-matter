@@ -1,4 +1,10 @@
-# Weekly Notes
+---
+title: Weekly Notes
+toc: true
+bibliography: quarto.bib
+reference-location: margin
+citation-location: margin
+---
 
 ## Week 2
 
@@ -29,11 +35,11 @@ Busy weeks due to starting three teaching modules: [Weekly update of my TSR (Tea
 5. Brief plan discussion: reading Mary Coe's thesis, then *Understanding Molecular Simulation* book
 
 6. Are there MSci students working on this project?
-![MSci project proposal](images/ProjectProposalsMsci2024-112.jpg)
+![MSci project proposal](images/notes/ProjectProposalsMsci2024-112.jpg)
 
 ### 2024/10/2 Why are the clouds at the same height when I look at the cloudy sky?
 
-![View from Brandon Hill](images/View%20from%20Brandon%20Hill.jpg)
+![View from Brandon Hill](images/notes/View%20from%20Brandon%20Hill.jpg)
 
 When we observe clouds appearing at the same height, it's often due to a phenomenon where a particular layer of the atmosphere has the right conditions for cloud formation. In the troposphere (the lowest layer of the atmosphere), clouds form when the air cools to its dew point, causing water vapour to condense into droplets or ice crystals. This typically happens at specific altitudes where temperature and pressure conditions are ideal for condensation.
 
@@ -232,3 +238,26 @@ This mathematical framework provides a pathway to explore how activity and modif
 </details>
 
 -->
+
+### 2024/10/5 An idea of beginning the introduction
+
+This thesis is ultimately about phase transitions. The central question is: what happens during a transition, for example, from water to ice, from a fluid to a superfluid, or from a paramagnet to a ferromagnet? The physics of such transitions is rich and complex. There are a number of different theoretical tools available to understand them. The study begins by examining thermodynamics and extends to the application of statistical mechanics to these transitions. Additionally, statistical field theory, a fully-fledged field theory similar to what is seen in particle physics or general relativity, will be applied. The goal is to use these approaches, along with concepts of symmetry and other properties, to understand different phases of matter.
+
+For a long time, understanding phase transitions was a mystery, especially what's known as a critical point. It's an interesting situation: we have something as familiar as water, and it was not until the mid-20th century that significant progress was made. The phase behaviour of water can be examined using a pressure-temperature diagram:
+
+![Phase diagram of water [@cmglee_phase_diagram]](images/notes/Phase_diagram_of_water_simplified.svg)
+
+- On the horizontal axis is temperature, and on the vertical axis is pressure.
+- The phase diagram for water features three regions: steam, water, and ice.
+- There's a point called the triple point, where all three phases coexist, and a critical point, which marks the end of the liquid-gas boundary.
+
+Water is essential, as most of us are mostly water, and yet the physics of what happens at this critical point wasn't understood for the longest time. It's a system that is incredibly close to us, yet to understand it requires some of the deepest ideas in physics, particularly the renormalisation group.
+
+In this sense, phase transitions form a uniquely positioned subject. They are simultaneously very close to our everyday experience and yet require extremely deep ideas to understand properly. Most other areas of physics are typically far removed from daily life. Quantum mechanics operates on microscopic scales, and astrophysics on cosmological scales, both far from what can be intuitively grasped. But here, some really deep, beautiful puzzles are found in the world around us.
+
+## Week 4
+### 2024/10/7 Weekly project meeting
+
+#### Things to discuss
+
+1. Overleaf template for the thesis, as I will start writing what I learn for either the introduction or theory sections.

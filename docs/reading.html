@@ -247,7 +247,10 @@ window.Quarto = {
   <li><a href="#what-is-a-complex-system" id="toc-what-is-a-complex-system" class="nav-link active" data-scroll-target="#what-is-a-complex-system">2024/9/21 - 10/3 <em>What is a Complex System?</em></a></li>
   <li><a href="#hydrophobicity-across-length-scales-the-role-of-surface-criticality" id="toc-hydrophobicity-across-length-scales-the-role-of-surface-criticality" class="nav-link" data-scroll-target="#hydrophobicity-across-length-scales-the-role-of-surface-criticality">2024/10/4 - <em>Hydrophobicity Across Length Scales: The Role of Surface Criticality</em></a>
   <ul class="collapse">
-  <li><a href="#q1." id="toc-q1." class="nav-link" data-scroll-target="#q1.">Q1.</a></li>
+  <li><a href="#q1.-resolved" id="toc-q1.-resolved" class="nav-link" data-scroll-target="#q1.-resolved">Q1. <em>Resolved</em></a></li>
+  <li><a href="#q2.-resolved" id="toc-q2.-resolved" class="nav-link" data-scroll-target="#q2.-resolved">Q2. <em>Resolved</em></a></li>
+  <li><a href="#q3.-resolved" id="toc-q3.-resolved" class="nav-link" data-scroll-target="#q3.-resolved">Q3. <em>Resolved</em></a></li>
+  <li><a href="#q4.-resolved" id="toc-q4.-resolved" class="nav-link" data-scroll-target="#q4.-resolved">Q4. <em>Resolved</em></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -318,12 +321,12 @@ Things that fail to be idealised fall into this dualistic concept: non-equilibri
 <section id="hydrophobicity-across-length-scales-the-role-of-surface-criticality" class="level2">
 <h2 class="anchored" data-anchor-id="hydrophobicity-across-length-scales-the-role-of-surface-criticality">2024/10/4 - <em>Hydrophobicity Across Length Scales: The Role of Surface Criticality</em></h2>
 <p>By Mary Kathryn Coe</p>
-<section id="q1." class="level3">
-<h3 class="anchored" data-anchor-id="q1.">Q1.</h3>
+<section id="q1.-resolved" class="level3">
+<h3 class="anchored" data-anchor-id="q1.-resolved">Q1. <em>Resolved</em></h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Hydrophobicity Across Length Scales/Screenshot 2024-10-04 at 01.12.24.png" class="img-fluid figure-img"></p>
-<figcaption>On page 35, Chapter 2</figcaption>
+<figcaption>On page 35, Chapter 2.1</figcaption>
 </figure>
 </div>
 <p>I’m not entirely sure why the surface tension is defined in that way, as it’s normally considered force per unit area. So, I asked ChatGPT:</p>
@@ -453,14 +456,157 @@ s_{\text{ex}} dT + \frac{\Gamma}{A} d\mu + d\gamma = 0
 <p>This is equation (2.1.10).</p>
 </details>
 <p>And I need to ask about equations 2.1.11 to 2.1.13, as I cannot find reference [40].</p>
-<hr>
-<p>2024/10/4</p>
-<p>Read up to section 2.3, but it’s worth going through it again from the start of section 2.3.</p>
+</section>
+<section id="q2.-resolved" class="level3">
+<h3 class="anchored" data-anchor-id="q2.-resolved">Q2. <em>Resolved</em></h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Hydrophobicity Across Length Scales/Screenshot 2024-10-04 at 20.33.41.png" class="img-fluid figure-img"></p>
+<figcaption>On page 40, Chapter 2.3</figcaption>
+</figure>
+</div>
+<p>I wasn’t sure what the one-particle density is or its use, so I asked ChatGPT:</p>
+<details>
+<summary>
+Click to reveal the answer!
+</summary>
+<p>The one-particle density function, often denoted as <span class="math inline">\(\rho^{(1)}(\mathbf{r})\)</span>, represents the probability density of finding a particle at a specific position <span class="math inline">\(\mathbf{r}\)</span> in a system of particles. It describes how particles are distributed in space on average and is a key observable in statistical mechanics and the study of fluids.</p>
+<p>The equation given is:</p>
+<p><span class="math display">\[
+\hat{\rho}^{(1)}(\mathbf{r}) = \sum_{j=1}^{N} \delta(\mathbf{r} - \mathbf{r}_j)
+\]</span></p>
+<p>This is the <strong>one-particle density operator</strong>, and it has the following meaning:</p>
+<ol type="1">
+<li><p><strong>Dirac Delta Function</strong>: <span class="math inline">\(\delta(\mathbf{r} - \mathbf{r}_j)\)</span> is a Dirac delta function that ‘picks out’ the position of the <span class="math inline">\(j\)</span>-th particle. It is equal to zero everywhere except at <span class="math inline">\(\mathbf{r}_j\)</span>, where it is infinite, ensuring that it integrates to 1. Thus, it counts the presence of a particle at <span class="math inline">\(\mathbf{r}_j\)</span>.</p></li>
+<li><p><strong>Summation over All Particles</strong>: The sum runs over all particles <span class="math inline">\(j\)</span> from 1 to <span class="math inline">\(N\)</span>, so this operator adds up the contributions from all particles in the system, effectively counting the number of particles at position <span class="math inline">\(\mathbf{r}\)</span>.</p></li>
+</ol>
+<p>In essence, the one-particle density operator <span class="math inline">\(\hat{\rho}^{(1)}(\mathbf{r})\)</span> gives the total number of particles at position <span class="math inline">\(\mathbf{r}\)</span> in the system. Since it is an operator, the actual <strong>one-particle density</strong> <span class="math inline">\(\langle \hat{\rho}^{(1)}(\mathbf{r}) \rangle\)</span>, as defined in equation (2.3.2), is obtained by averaging over all possible configurations of the system in the given ensemble (such as the grand canonical ensemble).</p>
+<p><em>Why Does It Look Like This?</em></p>
+<p>The form of equation (2.3.1) stems from how we represent the microscopic distribution of particles in space. The Dirac delta function ensures that for each particle, its position contributes to the overall density only at the exact location where that particle exists. This is a standard way to construct density operators in statistical mechanics because:</p>
+<ul>
+<li>The delta function precisely pinpoints the position of a particle.</li>
+<li>Summing over all particles ensures that the density operator accounts for the total number of particles present in the system.</li>
+</ul>
+<p>This representation allows us to describe spatially inhomogeneous systems where the density may vary across different regions (e.g., near a surface or an external potential). For homogeneous fluids, where particles are evenly distributed, this density would reduce to a constant value (the bulk density <span class="math inline">\(\rho_b\)</span>).</p>
+<p><em>Summary</em></p>
+<p>The one-particle density operator, <span class="math inline">\(\hat{\rho}^{(1)}(\mathbf{r})\)</span>, reflects how particles are distributed in space at a microscopic level. The delta functions track the positions of individual particles, and summing over all particles gives the total density at position <span class="math inline">\(\mathbf{r}\)</span>. The actual one-particle density function <span class="math inline">\(\rho^{(1)}(\mathbf{r})\)</span> is then the ensemble average of this operator over all configurations of the system.</p>
+</details>
+</section>
+<section id="q3.-resolved" class="level3">
+<h3 class="anchored" data-anchor-id="q3.-resolved">Q3. <em>Resolved</em></h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Hydrophobicity Across Length Scales/Screenshot 2024-10-04 at 22.36.13.png" class="img-fluid figure-img"></p>
+<figcaption>On page 43, Chapter 2.3</figcaption>
+</figure>
+</div>
+<p>I wasn’t sure why each variable is specifically chosen to form those equations. For example, in section 2.4.3, I do not understand why λ can be factored out of g on the right-hand side when λ has two different exponents, a and b. So, I asked ChatGPT:</p>
+<details>
+<summary>
+Click to reveal the answer!
+</summary>
+<p>Starting with Equation (2.4.3):</p>
+<p><span class="math display">\[
+g(\lambda^a u, \lambda^b v) = \lambda g(u, v)
+\]</span></p>
+<p>This equation states that the function <span class="math inline">\(g(u, v)\)</span> is a <strong>generalised homogeneous function</strong>. To understand why it takes this form and why <span class="math inline">\(\lambda\)</span> appears outside the function on the right-hand side, let’s break this down:</p>
+<ol type="1">
+<li><p><strong>Homogeneous Functions</strong>: A function is called homogeneous of degree <span class="math inline">\(\alpha\)</span> if, when all its arguments are scaled by a factor <span class="math inline">\(\lambda\)</span>, the function itself scales by <span class="math inline">\(\lambda^\alpha\)</span>. Mathematically, for a homogeneous function <span class="math inline">\(f(x, y)\)</span>, we would have: <span class="math display">\[
+f(\lambda x, \lambda y) = \lambda^\alpha f(x, y)
+\]</span> This property is common in critical phenomena where we are dealing with power-law behaviour near critical points.</p></li>
+<li><p><strong>Generalised Homogeneous Functions</strong>: The function <span class="math inline">\(g(u, v)\)</span> is a <strong>generalised</strong> homogeneous function because it allows different exponents for different variables. In this case, the variables <span class="math inline">\(u\)</span> and <span class="math inline">\(v\)</span> scale with different exponents <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> under the same scaling factor <span class="math inline">\(\lambda\)</span>.</p>
+<ul>
+<li><span class="math inline">\(\lambda^a u\)</span>: Here, <span class="math inline">\(u\)</span> is scaled by <span class="math inline">\(\lambda^a\)</span>. This implies that <span class="math inline">\(u\)</span> behaves differently under scaling compared to <span class="math inline">\(v\)</span>.</li>
+<li><span class="math inline">\(\lambda^b v\)</span>: Similarly, <span class="math inline">\(v\)</span> is scaled by <span class="math inline">\(\lambda^b\)</span>.</li>
+</ul></li>
+<li><p><strong>Why <span class="math inline">\(\lambda\)</span> can be factored out</strong>: The key to understanding why <span class="math inline">\(\lambda\)</span> can be factored out on the right-hand side despite having different exponents for <span class="math inline">\(u\)</span> and <span class="math inline">\(v\)</span> lies in the definition of a generalised homogeneous function. By construction, we impose that when the variables are scaled in a particular way (with exponents <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span>), the function scales by <span class="math inline">\(\lambda\)</span> itself. This is a property we assign to <span class="math inline">\(g(u, v)\)</span>. It doesn’t mean that <span class="math inline">\(\lambda\)</span> is constant; rather, the entire function <span class="math inline">\(g(u, v)\)</span> is designed to respond to the scaling in this specific manner.</p>
+<p>The exponents <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> control how <span class="math inline">\(u\)</span> and <span class="math inline">\(v\)</span> individually respond to scaling, but the overall response of the function is to scale as <span class="math inline">\(\lambda\)</span>. The scaling of the function on the right-hand side doesn’t contradict the fact that <span class="math inline">\(\lambda\)</span> has different exponents inside the arguments. This is simply a mathematical constraint on how the function <span class="math inline">\(g(u, v)\)</span> behaves under scaling.</p>
+<p>In other words, the form: <span class="math display">\[
+g(\lambda^a u, \lambda^b v)
+\]</span> ensures that the function scales uniformly by <span class="math inline">\(\lambda\)</span>, despite the individual variables scaling differently.</p></li>
+</ol>
+<p>Equation (2.4.4):</p>
+<p>Now, let’s explain how this scaling idea applies to the singular part of the free energy in equation (2.4.4):</p>
+<p><span class="math display">\[
+\omega_{\text{sing}}(\delta \mu, t) = \lambda^{-d} \omega_{\text{sing}}(\lambda^a \delta \mu, \lambda^b t)
+\]</span></p>
+<ol type="1">
+<li><p><strong>Variables</strong>:</p>
+<ul>
+<li><span class="math inline">\(\delta \mu = \mu - \mu_{\text{co}}\)</span> is the difference between the chemical potential <span class="math inline">\(\mu\)</span> and the critical chemical potential <span class="math inline">\(\mu_{\text{co}}\)</span>.</li>
+<li><span class="math inline">\(t\)</span> is the reduced temperature: <span class="math inline">\(t = \frac{T - T_c}{T_c}\)</span>.</li>
+<li><span class="math inline">\(d\)</span> is the dimensionality of the system (important for scaling relations).</li>
+</ul></li>
+<li><p><strong>Applying the Scaling Relation</strong>: Here, the function <span class="math inline">\(\omega_{\text{sing}}\)</span>, which represents the singular part of the free energy, is assumed to be a generalised homogeneous function. This means it should follow a scaling law similar to the one introduced in equation (2.4.3).</p>
+<p>The variables <span class="math inline">\(\delta \mu\)</span> and <span class="math inline">\(t\)</span> are scaled by <span class="math inline">\(\lambda^a\)</span> and <span class="math inline">\(\lambda^b\)</span>, respectively, where <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> are scaling exponents that determine how <span class="math inline">\(\delta \mu\)</span> and <span class="math inline">\(t\)</span> change when scaled by <span class="math inline">\(\lambda\)</span>.</p></li>
+<li><p><strong>Why <span class="math inline">\(\lambda^{-d}\)</span>?</strong></p>
+<ul>
+<li>The factor <span class="math inline">\(\lambda^{-d}\)</span> appears because we are dealing with free energy, which is an extensive quantity. In thermodynamics, extensive quantities scale with the volume of the system, and in <span class="math inline">\(d\)</span>-dimensional space, the volume scales as <span class="math inline">\(\lambda^d\)</span>. Since we are dealing with the <strong>singular</strong> part of the free energy, the scaling reflects the dimensionality of the system. The minus sign arises because, under scaling, the free energy decreases as the system grows larger.</li>
+</ul></li>
+<li><p><strong>The Free Choice of <span class="math inline">\(\lambda\)</span></strong>: The scaling factor <span class="math inline">\(\lambda\)</span> is arbitrary, meaning you can choose its value to simplify the equation. In this case, we choose <span class="math inline">\(\lambda^b = t^{-1}\)</span>, which simplifies the second argument (the temperature dependence) of <span class="math inline">\(\omega_{\text{sing}}\)</span>. By doing this, we reduce the complexity of the equation and make the temperature scaling explicit.</p></li>
+</ol>
+<p>Equation (2.4.5):</p>
+<p>This equation shows the final form after choosing <span class="math inline">\(\lambda^b = t^{-1}\)</span>:</p>
+<p><span class="math display">\[
+\omega_{\text{sing}}(\delta \mu, t) = t^{d/b} \omega_{\text{sing}}(t^{-a/b} \delta \mu, 1)
+\]</span></p>
+<ul>
+<li><p><strong>Why this form?</strong> By setting <span class="math inline">\(\lambda^b = t^{-1}\)</span>, we have scaled out the temperature dependence in the second argument of <span class="math inline">\(\omega_{\text{sing}}\)</span>. This isolates the temperature dependence into the prefactor <span class="math inline">\(t^{d/b}\)</span>, while leaving a scaling function that depends only on the ratio <span class="math inline">\(\delta \mu / t^{a/b}\)</span>, which is now the only scaling variable.</p>
+<ul>
+<li><span class="math inline">\(t^{d/b}\)</span>: This represents how the singular part of the free energy depends on temperature near the critical point. The exponent <span class="math inline">\(d/b\)</span> dictates how strongly the free energy diverges as <span class="math inline">\(t \to 0\)</span> (the critical point).</li>
+<li><span class="math inline">\(\Sigma\left( \frac{\delta \mu}{t^{a/b}} \right)\)</span>: The function <span class="math inline">\(\Sigma\)</span> is the scaling function, which encodes the remaining dependence on the scaled chemical potential <span class="math inline">\(\delta \mu / t^{a/b}\)</span>.</li>
+</ul></li>
+</ul>
+<p>In Summary: - In equation (2.4.3), the exponents <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> control how the variables <span class="math inline">\(u\)</span> and <span class="math inline">\(v\)</span> scale. Despite their different scaling behaviours, the overall function scales by <span class="math inline">\(\lambda\)</span> because it is designed as a generalised homogeneous function. - In equation (2.4.4), the singular part of the free energy near the critical point follows a similar scaling law, with the dimensionality <span class="math inline">\(d\)</span> appearing as a factor to reflect the extensive nature of free energy. - In equation (2.4.5), we choose <span class="math inline">\(\lambda^b = t^{-1}\)</span> to simplify the scaling form, making the dependence on temperature explicit and reducing the complexity of the equation. The resulting expression separates the prefactor <span class="math inline">\(t^{d/b}\)</span> and leaves a scaling function that depends only on the ratio <span class="math inline">\(\delta \mu / t^{a/b}\)</span>, which captures the critical behaviour.</p>
+<p></p>
+</details></section>
+<section id="q4.-resolved" class="level3">
+<h3 class="anchored" data-anchor-id="q4.-resolved">Q4. <em>Resolved</em></h3>
+<details>
+<summary>
+Another interesting answer about <em>one correlated entity</em>
+</summary>
+<p>In the context of phase transitions, particularly near a <strong>critical point</strong>, the term “fluctuations” refers to <strong>fluctuations in the local density</strong> of the system. Let’s explain in detail what this means, especially in the context of <strong>critical opalescence</strong> and <strong>long-range correlations</strong>.</p>
+<ol type="1">
+<li><strong>Density Fluctuations</strong>: When we talk about “density” in this context, we mean the <strong>number density</strong> of particles in a given volume. In simple terms, it’s how densely packed the particles are in a particular region. The density can fluctuate due to thermal motion, and these fluctuations are typically small and localised in non-critical conditions.</li>
+</ol>
+<p>However, as a system approaches the critical point of a phase transition (e.g., a liquid-vapour transition), the magnitude of these fluctuations grows dramatically.</p>
+<section id="what-happens-near-the-critical-point" class="level4">
+<h4 class="anchored" data-anchor-id="what-happens-near-the-critical-point">What happens near the critical point?</h4>
+<ul>
+<li><p><strong>Correlation Length (())</strong>: The correlation length <span class="math inline">\(\xi\)</span> represents the distance over which particles in the system are correlated or “communicate” with each other. Normally, this length is finite, and beyond this distance, the properties of the system in one region do not affect another region.</p>
+<p>Near the critical point, however, <span class="math inline">\(\xi \to \infty\)</span>. This means that particles separated by very large distances (even macroscopic scales) are correlated with each other. The entire system essentially becomes <strong>one correlated entity</strong>.</p></li>
+<li><p><strong>Diverging Fluctuations</strong>: As the correlation length grows, the fluctuations in the local density (i.e., how many particles are in a given region at any time) also grow larger. This happens because, when the correlation length is large, particles across large distances influence each other. As a result, fluctuations occur over all length scales, from small to very large.</p></li>
+<li><p><strong>Density Fluctuations</strong>: Specifically, these are <strong>fluctuations in the number of particles</strong> in a given volume. Imagine regions in a fluid where the particle density becomes temporarily higher or lower than the average. At the critical point, these fluctuations become very large and occur over very large distances, leading to the system appearing “cloudy” or “milky” — this is the phenomenon of <strong>critical opalescence</strong>.</p></li>
+</ul>
+<ol start="2" type="1">
+<li><strong>What exactly is fluctuating?</strong> At the critical point, <strong>density</strong> is the key fluctuating quantity, but more generally, the term “fluctuations” can refer to:</li>
+</ol>
+<ul>
+<li><p><strong>Order Parameter Fluctuations</strong>: Near a critical point, there is typically an <strong>order parameter</strong> that characterises the phase transition. For example, in the liquid-vapour transition, this order parameter could be the <strong>difference in density</strong> between the liquid and vapour phases. As the system approaches the critical point, the fluctuations in the order parameter become large.</p>
+<p>For example, in a fluid near the liquid-vapour critical point:</p>
+<ul>
+<li>In the liquid phase, particles are densely packed.</li>
+<li>In the vapour phase, particles are more spread out.</li>
+</ul>
+<p>Near the critical point, there is no sharp distinction between liquid and vapour phases. Instead, the system fluctuates between states that resemble both phases. You might see a region that has the density of a liquid next to a region that has the density of a vapour, and these regions appear and disappear rapidly.</p></li>
+</ul>
+<ol start="3" type="1">
+<li><p><strong>Why do these fluctuations occur?</strong> At the critical point, the system is in a delicate balance between two phases (e.g., liquid and vapour). The free energy landscape becomes very flat near the critical point, meaning that the system can fluctuate easily between different configurations with very little energy cost. These fluctuations span all length scales, leading to the phenomenon where large regions of the system can fluctuate in density.</p></li>
+<li><p><strong>Critical Opalescence</strong>: The critical opalescence mentioned in the text is a direct consequence of these large fluctuations in density. Light passing through the fluid is scattered by the density fluctuations. Since the fluctuations occur over a wide range of length scales (from very small to very large), they scatter light across all wavelengths, leading to the “milky” appearance of the fluid near the critical point.</p></li>
+</ol>
+<ul>
+<li><strong>Why does light scatter?</strong> Light is scattered by regions of varying density because the refractive index of the fluid depends on its density. When the density fluctuates significantly over large distances, light passing through the fluid encounters regions of different densities, leading to scattering in all directions.</li>
+</ul>
+<p>Summary: - <strong>What is fluctuating near the critical point?</strong>: Primarily, the <strong>number density</strong> (i.e., the number of particles per unit volume) fluctuates near the critical point. - <strong>Why do these fluctuations grow?</strong>: As the correlation length <span class="math inline">\(\xi\)</span> becomes large, regions of the system separated by large distances become correlated, allowing large-scale fluctuations in density. - <strong>What’s the physical manifestation?</strong>: These fluctuations lead to observable phenomena such as <strong>critical opalescence</strong>, where light is scattered by the large fluctuations in density, causing the fluid to appear milky or cloudy.</p>
+<p>In short, the “fluctuations” near the critical point refer to <strong>density fluctuations</strong>, which are tied to the divergence of the correlation length, and these fluctuations grow larger and affect larger regions of the system as the critical point is approached.</p>
+</section></details>
 
 
 
 </section>
 </section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

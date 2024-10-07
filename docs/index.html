@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index</title>
+<title>Project Description</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -70,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar docked">
+<body class="nav-sidebar docked slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -195,8 +214,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-description" id="toc-project-description" class="nav-link active" data-scroll-target="#project-description">Project Description</a></li>
-  <li><a href="#useful-links" id="toc-useful-links" class="nav-link" data-scroll-target="#useful-links">Useful Links</a>
+  <li><a href="#useful-links" id="toc-useful-links" class="nav-link active" data-scroll-target="#useful-links">Useful Links</a>
   <ul class="collapse">
   <li><a href="#general" id="toc-general" class="nav-link" data-scroll-target="#general">General</a></li>
   <li><a href="#it" id="toc-it" class="nav-link" data-scroll-target="#it">IT</a></li>
@@ -205,18 +223,39 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Project Description</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<section id="project-description" class="level1">
-<h1>Project Description</h1>
-<p>In terms of the project on ‘Active Drying’, we discussed the initial stages. ‘Drying’ is an equilibrium surface phase transition that occurs when a fluid at liquid-vapour coexistence is in contact with an infinite planar substrate that is sufficiently weakly attractive to the fluid particles, such that the vapour phase prefers to be at the substrate. Surface phase transitions can be first-order or critical, and previous results (see attached paper by Evans et al.) show that drying is generally a critical surface phase transition.</p>
-<p>Previous work on ABPs has shown that they can exhibit a first-order wetting transition (see Turci et al., attached). This effect has been investigated by looking at liquid-vapour ‘slabs’ and droplets, showing consistent results. However, the mechanism by which the wetting transition is traversed does not seem to allow for the possibility of a drying transition. To have a chance of observing this, we need to understand the mechanism by which ABPs interact with a surface.</p>
-<p>The aggregation effect at a hard wall arises because ABPs become trapped at the wall and cannot diffuse away quickly enough. The project will attempt to induce a drying transition by coupling the ABP velocity vector to the wall-fluid interaction in such a way as to produce a torque that creates an effective wall-fluid repulsion, possibly enabling a drying transition. Your task will be to modify a standard MD simulation package to introduce this torque and then proceed similarly to the Turci and Wilding paper in PRL 2021, to try to observe a drying transition. If evidence for this is seen, then you will try to quantify the character of the transition and analyse its critical properties.</p>
-</section>
-<section id="useful-links" class="level1">
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>In terms of the project on ‘Active Drying’, <em>drying</em> is an equilibrium surface phase transition that occurs when a fluid at liquid-vapour coexistence is in contact with an infinite planar substrate that is sufficiently weakly attractive to the fluid particles, such that the vapour phase prefers to be at the substrate. Surface phase transitions can be first-order or critical, and previous results (see <span class="citation" data-cites="evans_drying_2017 evans_unified_2019">[<a href="#ref-evans_drying_2017" role="doc-biblioref">1</a>, <a href="#ref-evans_unified_2019" role="doc-biblioref">2</a>]</span>) show that drying is generally a critical surface phase transition.</p>
+<div class="no-row-height column-margin column-container"><div id="ref-evans_drying_2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Evans R, Stewart MC, Wilding NB (2017) Drying and wetting transitions of a <span>Lennard</span>-<span>Jones</span> fluid: <span>Simulations</span> and density functional theory. The Journal of Chemical Physics 147(4):044701. <a href="https://doi.org/10.1063/1.4993515">https://doi.org/10.1063/1.4993515</a></div>
+</div><div id="ref-evans_unified_2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Evans R, Stewart MC, Wilding NB (2019) A unified description of hydrophilic and superhydrophobic surfaces in terms of the wetting and drying transitions of liquids. Proceedings of the National Academy of Sciences 116(48):23901–23908. <a href="https://doi.org/10.1073/pnas.1913587116">https://doi.org/10.1073/pnas.1913587116</a></div>
+</div><div id="ref-turci_partial_2024" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Turci F, Jack RL, Wilding NB (2024) Partial and complete wetting of droplets of active <span>Brownian</span> particles. Soft Matter 20(9):2060–2074. <a href="https://doi.org/10.1039/D3SM01493B">https://doi.org/10.1039/D3SM01493B</a></div>
+</div></div><p>Previous work on ABPs has shown that they can exhibit a first-order wetting transition (see <span class="citation" data-cites="turci_partial_2024">[<a href="#ref-turci_partial_2024" role="doc-biblioref">3</a>]</span>). This effect has been investigated by looking at liquid-vapour ‘slabs’ and droplets, showing consistent results. However, the mechanism by which the wetting transition is traversed does not seem to allow for the possibility of a drying transition. To have a chance of observing this, we need to understand the mechanism by which ABPs interact with a surface.</p>
+<p>The aggregation effect at a hard wall arises because ABPs become trapped at the wall and cannot diffuse away quickly enough. The project will attempt to induce a drying transition by coupling the ABP velocity vector to the wall-fluid interaction in such a way as to produce a torque that creates an effective wall-fluid repulsion, possibly enabling a drying transition. Our task will be to modify a standard MD simulation package to introduce this torque and then proceed similarly to the Turci and Wilding paper in PRL 2021 (see <span class="citation" data-cites="turci_wetting_2021">[<a href="#ref-turci_wetting_2021" role="doc-biblioref">4</a>]</span>), to try to observe a drying transition. If evidence for this is seen, then we will try to quantify the character of the transition and analyse its critical properties.</p>
+<div class="no-row-height column-margin column-container"><div id="ref-turci_wetting_2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Turci F, Wilding NB (2021) Wetting <span>Transition</span> of <span>Active</span> <span>Brownian</span> <span>Particles</span> on a <span>Thin</span> <span>Membrane</span>. Physical Review Letters 127(23):238002. <a href="https://doi.org/10.1103/PhysRevLett.127.238002">https://doi.org/10.1103/PhysRevLett.127.238002</a></div>
+</div></div><section id="useful-links" class="level1">
 <h1>Useful Links</h1>
 <section id="general" class="level2">
 <h2 class="anchored" data-anchor-id="general">General</h2>
@@ -236,6 +275,7 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://bristol-training.github.io">Data Science and Research Software Engineering Training</a></p>
 <p><a href="https://github.com/BristolDataScienceSociety">BDDS Python workshops</a></p>
 <p><a href="https://quarto.org/docs/get-started/hello/vscode.html">Quarto Tutorial</a></p>
+
 
 
 </section>
