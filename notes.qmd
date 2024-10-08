@@ -260,4 +260,27 @@ In this sense, phase transitions form a uniquely positioned subject. They are si
 
 #### Things to discuss
 
-1. Overleaf template for the thesis, as I will start writing what I learn for either the introduction or theory sections.
+1. Overleaf template for the thesis, as I will start writing what I learn for either the introduction or theory sections. Found one: [Link](https://www.overleaf.com/latex/templates/university-of-bristol-thesis-template/kzqrfvyxxcdm)
+
+### 2024/10/8 Analytical Mechanics
+
+I've been watching Tom's lectures on Analytical Mechanics once more. I’ve just finished part 2. The topics are:
+
+1. Calculus of variations
+2. Lagrangian mechanics
+3. Hamiltonian mechanics
+
+Why did I start watching it?
+
+Well, for the last project meeting, I had a naïve question about whether we could formulate a Lagrangian for the drying scenario. For example, in my supervisors' papers, they couldn't manage to observe the drying transition in their setup. So, I was asking if, when the trajectory of all particles is away from the surface, we could possibly derive an analytical equation of forces between the particles and the wall to induce torque. Just a pure naïve idea.
+
+Nigel said the principle of least action makes sense in equilibrium settings, so I had to revise that concept. The Lagrangian is the kinetic energy minus potential energy, whatever this quantity is. In non-equilibrium systems, energy keeps changing since active agents continuously consume energy. Also, the effective potential depends on the properties of the wall. So, the Lagrangian would become time-dependent, which now makes sense based on what Nigel said.
+
+The beautiful theorem was revisited from his lectures: Noether's theorem.
+
+- If the laws of physics don't depend on time, energy is conserved.
+- Similarly, if the system has translational or rotational invariance, momentum or angular momentum is conserved, respectively.
+
+This is beautiful: conserved quantities defirve from symmetries of the system. It also implies that since energy is *not* conserved for the system of my interest, the equations of motion would be time-dependent. I think it would be useful to pay attention to how the equations of motion for active Brownian particles are formulated once I revise their papers.
+
+In terms of his lectures, I think I'll continue to watch part 3 since I've already watched the first two. Though, I think his lecture notes were better than his recorded video lectures from what I remember, even if his video lectures on the physics of phase transitions were much more inspiring. So, a note for my future self: when revising the content of the analytical formulation of mechanics, read his lecture notes.
