@@ -524,18 +524,38 @@ Cmglee. n.d. <span>“Phase Diagram of Water Simplified.”</span> <a href="http
 <li>Hamiltonian mechanics</li>
 </ol>
 <p>Why did I start watching it?</p>
-<p>Well, for the last project meeting, I had a naïve question about whether we could formulate a Lagrangian for the drying scenario. For example, in my supervisors’ papers, they couldn’t manage to observe the drying transition in their setup. So, I was asking if, when the trajectory of all particles is away from the surface, we could have an analytical equation of forces between the particles and the wall to induce torque—just a pure naïve idea.</p>
+<p>Well, for the last project meeting, I had a naïve question about whether we could formulate a Lagrangian for the drying scenario. For example, in my supervisors’ papers, they couldn’t manage to observe the drying transition in their setup. So, I was asking if, when the trajectory of all particles is away from the surface, we could possibly derive an analytical equation of forces between the particles and the wall to induce torque. Just a pure naïve idea.</p>
 <p>Nigel said the principle of least action makes sense in equilibrium settings, so I had to revise that concept. The Lagrangian is the kinetic energy minus potential energy, whatever this quantity is. In non-equilibrium systems, energy keeps changing since active agents continuously consume energy. Also, the effective potential depends on the properties of the wall. So, the Lagrangian would become time-dependent, which now makes sense based on what Nigel said.</p>
 <p>The beautiful theorem was revisited from his lectures: Noether’s theorem.</p>
 <ul>
 <li>If the laws of physics don’t depend on time, energy is conserved.</li>
 <li>Similarly, if the system has translational or rotational invariance, momentum or angular momentum is conserved, respectively.</li>
 </ul>
-<p>This is beautiful. It also implies that since energy is <em>not</em> conserved for the system of my interest, the equations of motion would be time-dependent. I think it would be useful to pay attention to how the equations of motion for active Brownian particles are formulated once I revise their papers.</p>
+<p>This is beautiful: conserved quantities defirve from symmetries of the system. It also implies that since energy is <em>not</em> conserved for the system of my interest, the equations of motion would be time-dependent. I think it would be useful to pay attention to how the equations of motion for active Brownian particles are formulated once I revise their papers.</p>
 <p>In terms of his lectures, I think I’ll continue to watch part 3 since I’ve already watched the first two. Though, I think his lecture notes were better than his recorded video lectures from what I remember, even if his video lectures on the physics of phase transitions were much more inspiring. So, a note for my future self: when revising the content of the analytical formulation of mechanics, read his lecture notes.</p>
+<section id="programs-i-made" class="level4">
+<h4 class="anchored" data-anchor-id="programs-i-made">Programs I made</h4>
+<p>While doing that, I made a Python program that:</p>
+<ol type="1">
+<li>downloads all lectures from Mediasite from the unit I select,</li>
+<li>detects and removes sections of silence in both the video and audio tracks, applying a buffer of 0.5 seconds before and after each silence to make the transitions smoother,</li>
+<li>syncs the video and audio together seamlessly to create an mp4 file,</li>
+<li>keeps the system active throughout the process by using caffeinate to prevent the computer from going to sleep,</li>
+<li>tracks and reports the download status, ensuring that any interrupted downloads are handled smoothly,</li>
+<li>ensures frame rate consistency to avoid any sync issues that might arise due to different frame rates,</li>
+<li>automatically manages temporary files created during the silence detection process, keeping the system clean after the task is done.</li>
+</ol>
+<p>I’m not sure if I’m allowed to share this code on GitHub, but it was a fun project.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/notes/Screenshot 2024-10-08 at 17.47.53.png" class="img-fluid figure-img"></p>
+<figcaption>Downloaded lectures</figcaption>
+</figure>
+</div>
 
 
 
+</section>
 </section>
 </section>
 

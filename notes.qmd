@@ -284,3 +284,19 @@ The beautiful theorem was revisited from his lectures: Noether's theorem.
 This is beautiful: conserved quantities defirve from symmetries of the system. It also implies that since energy is *not* conserved for the system of my interest, the equations of motion would be time-dependent. I think it would be useful to pay attention to how the equations of motion for active Brownian particles are formulated once I revise their papers.
 
 In terms of his lectures, I think I'll continue to watch part 3 since I've already watched the first two. Though, I think his lecture notes were better than his recorded video lectures from what I remember, even if his video lectures on the physics of phase transitions were much more inspiring. So, a note for my future self: when revising the content of the analytical formulation of mechanics, read his lecture notes.
+
+#### Programs I made
+
+Before doing that, I made a Python program that:
+
+1. downloads all lectures from Mediasite from the unit I select,
+2. detects and removes sections of silence in both the video and audio tracks, applying a buffer of 0.5 seconds before and after each silence to make the transitions smoother,
+3. syncs the video and audio together seamlessly to create an mp4 file,
+4. keeps the system active throughout the process by using caffeinate to prevent the computer from going to sleep,
+5. tracks and reports the download status, ensuring that any interrupted downloads are handled smoothly,
+6. ensures frame rate consistency to avoid any sync issues that might arise due to different frame rates,
+7. automatically manages temporary files created during the silence detection process, keeping the system clean after the task is done.
+
+I'm not sure if I'm allowed to share this code on GitHub, but it was a fun project.
+
+![Downloaded lectures](images/notes/Screenshot%202024-10-08%20at%2017.47.53.png)
