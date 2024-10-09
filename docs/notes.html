@@ -535,7 +535,7 @@ Cmglee. n.d. <span>“Phase Diagram of Water Simplified.”</span> <a href="http
 <p>In terms of his lectures, I think I’ll continue to watch part 3 since I’ve already watched the first two. Though, I think his lecture notes were better than his recorded video lectures from what I remember, even if his video lectures on the physics of phase transitions were much more inspiring. So, a note for my future self: when revising the content of the analytical formulation of mechanics, read his lecture notes.</p>
 <section id="programs-i-made" class="level4">
 <h4 class="anchored" data-anchor-id="programs-i-made">Programs I made</h4>
-<p>While doing that, I made a Python program that:</p>
+<p>Before doing that, I made a Python program that:</p>
 <ol type="1">
 <li>downloads all lectures from Mediasite from the unit I select,</li>
 <li>detects and removes sections of silence in both the video and audio tracks, applying a buffer of 0.5 seconds before and after each silence to make the transitions smoother,</li>
@@ -550,6 +550,31 @@ Cmglee. n.d. <span>“Phase Diagram of Water Simplified.”</span> <a href="http
 <figure class="figure">
 <p><img src="images/notes/Screenshot 2024-10-08 at 17.47.53.png" class="img-fluid figure-img"></p>
 <figcaption>Downloaded lectures</figcaption>
+</figure>
+</div>
+<p>Why did I make it? Because…</p>
+<ul>
+<li>I’m lazy to log in to Blackboard (the university website) every time I want to watch videos.</li>
+<li>I personally wanted to collect the lectures before they disappear from the website.</li>
+<li>There are a lot of pauses in the lectures where the lecturer doesn’t speak while writing equations. Removing these pauses also saves total viewing time. Observe the difference:</li>
+</ul>
+<p><strong>Total time to watch all videos of AM (Analytical Mechanics):</strong></p>
+<ul>
+<li>AM: 9 hours, 18 minutes, 34 seconds</li>
+<li>Processed_AM: 8 hours, 23 minutes, 50 seconds</li>
+<li>Processed_AM (no buffer of 0.5s): 7 hours, 23 minutes, 28 seconds</li>
+</ul>
+<p><strong>Total time to watch all videos of PT (Physics of Phase Transitions):</strong></p>
+<ul>
+<li>PT: 11 hours, 42 minutes, 19 seconds</li>
+<li>Processed_PT: 10 hours, 49 minutes, 18 seconds</li>
+<li>Processed_PT (no buffer of 0.5s): 9 hours, 45 minutes, 29 seconds</li>
+</ul>
+<p>The buffer is necessary, as it makes the transitions feel more natural by introducing a brief pause rather than cutting the silences completely. Watch an example below:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><video src="videos/notes/processed_AM%202.5a%20Noether's%20Theorem.mp4" class="img-fluid" controls=""><a href="videos/notes/processed_AM 2.5a Noether's Theorem.mp4">Video</a></video></p>
+<figcaption>AM 2.5a Noether’s Theorem</figcaption>
 </figure>
 </div>
 

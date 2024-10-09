@@ -297,6 +297,28 @@ Before doing that, I made a Python program that:
 6. ensures frame rate consistency to avoid any sync issues that might arise due to different frame rates,
 7. automatically manages temporary files created during the silence detection process, keeping the system clean after the task is done.
 
-I'm not sure if I'm allowed to share this code on GitHub, but it was a fun project.
+I'm not sure if I'm allowed to share this code on GitHub, but it was a fun project. 
 
 ![Downloaded lectures](images/notes/Screenshot%202024-10-08%20at%2017.47.53.png)
+
+Why did I make it? Because...
+
+- I'm lazy to log in to Blackboard (the university website) every time I want to watch videos.
+- I personally wanted to collect the lectures before they disappear from the website.
+- There are a lot of pauses in the lectures where the lecturer doesn't speak while writing equations. Removing these pauses also saves total viewing time. Observe the difference:
+
+**Total time to watch all videos of AM (Analytical Mechanics):**
+
+- AM: 9 hours, 18 minutes, 34 seconds
+- Processed_AM: 8 hours, 23 minutes, 50 seconds
+- Processed_AM (no buffer of 0.5s): 7 hours, 23 minutes, 28 seconds
+
+**Total time to watch all videos of PT (Physics of Phase Transitions):**
+
+- PT: 11 hours, 42 minutes, 19 seconds
+- Processed_PT: 10 hours, 49 minutes, 18 seconds
+- Processed_PT (no buffer of 0.5s): 9 hours, 45 minutes, 29 seconds
+
+The buffer is necessary, as it makes the transitions feel more natural by introducing a brief pause rather than cutting the silences completely. Watch an example below:
+
+![AM 2.5a Noether's Theorem](videos/notes/processed_AM 2.5a Noether's Theorem.mp4)
