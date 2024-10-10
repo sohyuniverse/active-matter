@@ -272,18 +272,20 @@ I've been watching Tom's lectures on Analytical Mechanics once more. I’ve just
 
 Why did I start watching it?
 
-Well, for the last project meeting, I had a naïve question about whether we could formulate a Lagrangian for the drying scenario. For example, in my supervisors' papers, they couldn't manage to observe the drying transition in their setup. So, I was asking if, when the trajectory of all particles is away from the surface, we could possibly derive an analytical equation of forces between the particles and the wall to induce torque. Just a pure naïve idea.
+Well, during the last project meeting, I had a naïve question about whether we could formulate a Lagrangian for the drying scenario. For example, in my supervisor's papers, they couldn't manage to observe the drying transition in their setup. So, I asked if, when the trajectory of all particles is away from the surface, we could possibly derive an analytical equation of forces between the particles and the wall to induce torque. Just a pure naïve idea.
 
-Nigel said the principle of least action makes sense in equilibrium settings, so I had to revise that concept. The Lagrangian is the kinetic energy minus potential energy, whatever this quantity is. In non-equilibrium systems, energy keeps changing since active agents continuously consume energy. Also, the effective potential depends on the properties of the wall. So, the Lagrangian would become time-dependent, which now makes sense based on what Nigel said.
+Nigel mentioned that the principle of least action makes sense in equilibrium settings, so I had to revise that concept. The Lagrangian is the kinetic energy minus the potential energy, whatever this quantity is. In non-equilibrium systems, energy keeps changing since active agents continuously consume energy. Also, the effective potential depends on the properties of the wall. So, the Lagrangian would become time-dependent, which now makes sense based on what Nigel said.
 
-The beautiful theorem was revisited from his lectures: Noether's theorem.
+The beautiful theorem was revisited from his lectures: **Noether's theorem**.
 
 - If the laws of physics don't depend on time, energy is conserved.
 - Similarly, if the system has translational or rotational invariance, momentum or angular momentum is conserved, respectively.
 
-This is beautiful: conserved quantities defirve from symmetries of the system. It also implies that since energy is *not* conserved for the system of my interest, the equations of motion would be time-dependent. I think it would be useful to pay attention to how the equations of motion for active Brownian particles are formulated once I revise their papers.
+This is beautiful: conserved quantities derive from the symmetries of the system. It also implies that since energy is *not* conserved for the system I'm interested in, the equations of motion would be time-dependent. I think it would be useful to pay attention to how the equations of motion for active Brownian particles are formulated once I revise their papers.
 
-In terms of his lectures, I think I'll continue to watch part 3 since I've already watched the first two. Though, I think his lecture notes were better than his recorded video lectures from what I remember, even if his video lectures on the physics of phase transitions were much more inspiring. So, a note for my future self: when revising the content of the analytical formulation of mechanics, read his lecture notes.
+As for his lectures, I’ll continue with part 3 since I've already watched the first two. That said, I remember his lecture notes being better than the video recordings, although his video lectures on phase transitions were much more inspiring. So, a note for my future self: when revising the content of the analytical formulation of mechanics, read his lecture notes.
+
+---
 
 #### Programs I made
 
@@ -291,21 +293,21 @@ Before doing that, I made a Python program that:
 
 1. downloads all lectures from Mediasite from the unit I select,
 2. detects and removes sections of silence in both the video and audio tracks, applying a buffer of 0.5 seconds before and after each silence to make the transitions smoother,
-3. syncs the video and audio together seamlessly to create an mp4 file,
-4. keeps the system active throughout the process by using caffeinate to prevent the computer from going to sleep,
-5. tracks and reports the download status, ensuring that any interrupted downloads are handled smoothly,
+3. syncs the video and audio together seamlessly to create an mp4 file (the original files were mov, which were almost 10x larger in size),
+4. keeps the system active throughout the process by using `caffeinate` to prevent the computer from going to sleep,
+5. tracks and reports the download status, ensuring that any interrupted downloads are handled smoothly by automatically updating cookies for authentication,
 6. ensures frame rate consistency to avoid any sync issues that might arise due to different frame rates,
 7. automatically manages temporary files created during the silence detection process, keeping the system clean after the task is done.
 
-I'm not sure if I'm allowed to share this code on GitHub, but it was a fun project. 
+I'm not sure if I'm allowed to share this code on GitHub, but it was a fun project.
 
 ![Downloaded lectures](images/notes/Screenshot%202024-10-08%20at%2017.47.53.png)
 
 Why did I make it? Because...
 
-- I'm lazy to log in to Blackboard (the university website) every time I want to watch videos.
-- I personally wanted to collect the lectures before they disappear from the website.
-- There are a lot of pauses in the lectures where the lecturer doesn't speak while writing equations. Removing these pauses also saves total viewing time. Observe the difference:
+- I’ve always felt lazy logging into Blackboard (the university website) every time I wanted to watch videos during my undergraduate years.
+- I personally wanted to collect the lectures before they disappeared from the website.
+- There are many pauses in the lectures where the lecturer doesn't speak while writing equations or words. Removing these pauses also saves total viewing time. Observe the difference:
 
 **Total time to watch all videos of AM (Analytical Mechanics):**
 
@@ -319,6 +321,6 @@ Why did I make it? Because...
 - Processed_PT: 10 hours, 49 minutes, 18 seconds
 - Processed_PT (no buffer of 0.5s): 9 hours, 45 minutes, 29 seconds
 
-The buffer is necessary, as it makes the transitions feel more natural by introducing a brief pause rather than cutting the silences completely. Watch an example below:
+The buffer is necessary as it makes the transitions feel more natural by introducing a brief pause rather than cutting the silences completely. Watch an example below (duration change: 18:09 (before processing) → 15:29 (after processing with buffers)):
 
 ![AM 2.5a Noether's Theorem](videos/notes/processed_AM 2.5a Noether's Theorem.mp4)
